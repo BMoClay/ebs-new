@@ -33,7 +33,7 @@ const leftArrowStyles = {
 
 const sliderStyles = {
   position: "relative",
-  height: "100%",
+  // height: "100%",
 };
 
 // const dotsContainerStyles = {
@@ -78,7 +78,7 @@ const ImageSlider = ({ pictures, videos }) => {
   // console.log(pictures)
   //   console.log("slideStylesWidthBackground:",slideStylesWidthBackground)
   return (
-    <div style={sliderStyles}>
+    <div style={sliderStyles} className="">
       <div>
         <div onClick={goToPrevious} style={leftArrowStyles}>
           ❰
@@ -88,7 +88,9 @@ const ImageSlider = ({ pictures, videos }) => {
         </div>
       </div>
       {/* <video src={videos[currentIndex].videoFile} autoPlay className="w-full object-cover"></video> */}
-      <img src={pictures[currentIndex].imgFile} alt="" />
+      <div  >
+        <img src={pictures[currentIndex].imgFile} alt="" />
+      </div>
       {/* <div style={slideStylesWidthBackground}></div> */}
       {/* <div style={dotsContainerStyles}>
         {pictures.map((slide, slideIndex) => (
