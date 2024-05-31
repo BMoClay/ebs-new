@@ -44,7 +44,9 @@ const Info = () => {
         <p>Blumensteinstrasse 17, CH-3012 Bern</p>
         <p>Via Santa Maria 7, IT-06031 Bevagna (PG)</p>
         <p>+41 (0)79 271 59 35</p>
-        <p>susannebieri@gmail.com</p>
+        <p className="font-bold"> 
+          <a href={`mailTo:susannebieri@gmail.com`}>susannebieri@gmail</a>
+        </p>
         <p>editionsbierisusanne-ebs.ch</p>
         <p>
           Instagram:{" "}
