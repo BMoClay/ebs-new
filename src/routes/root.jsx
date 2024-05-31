@@ -14,7 +14,9 @@ import logo10 from "/assets/logos/Fiery_Color_018 copy 2.png";
 import logo11 from "/assets/logos/Fiery_Color_019 copy 2.png";
 import logo12 from "/assets/logos/Fiery_Color_020 copy 2.png";
 import logo13 from "/assets/logos/Fiery_Color_021 copy 2.png";
-import dodecahedron from "/assets/IMG_7556 copy.jpeg";
+// import dodecahedron from "/assets/IMG_7556 copy.jpeg";
+import dodecahedron from "/assets/small poly.png";
+import inSitu1 from "/assets/inSituImages/IMG_9269 copy.jpeg"
 
 export async function loader() {
   const books = await getBooks();
@@ -22,6 +24,8 @@ export async function loader() {
   //   const logos = await getLogos();
   return { books, inSituImages };
 }
+
+const dog = inSitu1
 
 export default function Root() {
   //   const { logos, books, inSituImages } = useLoaderData();
@@ -108,13 +112,16 @@ export default function Root() {
           artists' publications are produced in collaboration with artists and
           institutions according to their own rules.
         </p>
-        <div className="grid sm:grid-cols-1  lg:grid-cols-2 2xl:grid-cols-3 gap-2">
+        <div>
+          <img src={dog}/>
+        </div>
+        {/* <div className="grid sm:grid-cols-1  lg:grid-cols-2 2xl:grid-cols-3 gap-2">
           {inSituImages.map((inSituImage) => (
             <div key={inSituImage} className="">
               <img src={inSituImage}></img>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
       {/* <div className="w-full max-w-5xl p-5 pb-10 mx-auto mb-10 gap-5 columns-3 space-y-5">
         {inSituImages.map((inSituImage) => (
@@ -134,7 +141,7 @@ export default function Root() {
         <Info />
       </div>
       <div className="flex justify-center">
-        <img src={dodecahedron} alt="" className="w-64 pb-5" />
+        <img src={dodecahedron} alt="" className="w-48 pb-5" />
       </div>
     </>
   );
