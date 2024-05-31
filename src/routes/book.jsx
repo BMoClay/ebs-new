@@ -39,7 +39,7 @@ export default function Book() {
       <div className="">
         <div className="">
           <h2 className="flex absolute py-1 inset-x-0 top-0 justify-center">
-            {book.bookTitle} by {book.artist}
+            {book.bookTitle}  {book.artist}
           </h2>
           <Navbar />
           {/* <img className="h-32" src={book.logo} alt="" /> */}
@@ -109,8 +109,8 @@ export default function Book() {
               </div>
               <hr />
               <div className="grid grid-cols-6 items-baseline py-1 gap-1">
-                <h3 className="sm:col-span-2 ">Artist's Website</h3>
-                <h3 className="sm:col-span-3"><a href="https://isabellecornaro.com/"><b>isabellecornaro.com</b></a></h3>
+                <h3 className="sm:col-span-2 ">Website</h3>
+                <h3 className="sm:col-span-3"><a href={book.websiteUrl}><b>{book.website}</b></a></h3>
               </div>
             </div>
           </div>
