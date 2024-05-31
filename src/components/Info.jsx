@@ -1,7 +1,7 @@
 const Info = () => {
   return (
     <div id="info" className="text-xs">
-      {/* <div className="py-2">
+      <div className="py-2">
         <h1>e.bs</h1>
         <p>
           editionsbierisusanne-ebs is an artists' book publisher with
@@ -9,7 +9,7 @@ const Info = () => {
           artists' publications are produced in collaboration with artists and
           institutions according to their own rules.
         </p>
-      </div> */}
+      </div>
       <div className="py-2">
         <h1>e.bs </h1>
         <p>

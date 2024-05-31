@@ -1,4 +1,4 @@
-import logo1 from "/assets/logosBig/Fiery_Color_021.png";
+import logo2 from "/assets/logosBig/Fiery_Color_021.png";
 // import logo2 from "/assets/logos/Fiery_Color_010_ok copy.png";
 // import logo3 from "/assets/logos/Fiery_Color_011 copy.png";
 // import logo4 from "/assets/logos/Fiery_Color_012 copy.png";
@@ -15,12 +15,42 @@ import logo1 from "/assets/logosBig/Fiery_Color_021.png";
 import coverImage1 from "/assets/coverImages/IMG_9389 copy.jpg";
 import coverImage2 from "/assets/coverImages/IMG_9393 copy.jpg";
 import coverImage3 from "/assets/coverImages/IMG_9409 copy.jpg";
-import video1 from "/assets/coverImages/IMG_9401.mp4"
-import video2 from "/assets/coverImages/IMG_9408.mp4"
+// import video1 from "/assets/coverImages/IMG_9401.mp4"
+// import video2 from "/assets/coverImages/IMG_9408.mp4"
+import dog from "/assets/inSituImages/IMG_9269 copy.jpeg"
+import logo1 from "/assets/logos/Fiery_Color_021 copy 2.png";
 
 export const BOOKS = [
-    {
+     {
         id: 1,
+        bookTitle: "FIRST BOOK",
+        artist: "Vaclav and Susanne",
+        urlText: "first-book",
+        year: 2023,
+        pages: 12,
+        size: "24 x 30 cm",
+        binding: "staplebound",
+        price: "EU 30.-",
+        edition: "First",
+        editionAmount: 220,
+        attribution:
+          "Published on occasion of the exhibition SECOND BOOK, from March 21 to June 29, 2024, at Fondazione Giuliani, Roma by e.bs editionsbierisusanne CH-3012 Bern (main office) and IT-06031 Bevagna (PG) (additional office/non-profi t project space Via Santa Maria 7) 2024. Realized by La Tipografica Bevagna.",
+        notes:
+          "No text or explanation, so-called BAT - reproduced and overworked reproductions - combine to form a cinematic outline through spray paintings and their multiple enlargements into infinity.",
+        bio: "Second Artist bio - born 1974, France. Lives and works in Paris and Geneva - her practice includes video, installation, sculpture, painting, scenography as well as edition and artist's books...; she explores the relationship between the object and its image, the original and its copy and the interface between art and art history.",
+        artistsWebsite: "https://secondartist.com/",
+        logo: logo1,
+        // coverImage: dog,
+        images: [
+          {
+            id: 1,
+            imgFile: dog
+          }
+        ],
+        available: true,
+      },
+    {
+        id: 2,
         bookTitle: "LAWS, MATTER",
         artist: "Isabelle Cornaro",
         urlText: "isabelle-cornaro",
@@ -37,7 +67,7 @@ export const BOOKS = [
           "No text or explanation, so-called BAT - reproduced and overworked reproductions - combine to form a cinematic outline through spray paintings and their multiple enlargements into infinity.",
         bio: "Isabelle CORNARO - born 1974, France. Lives and works in Paris and Geneva - her practice includes video, installation, sculpture, painting, scenography as well as edition and artist's books...; she explores the relationship between the object and its image, the original and its copy and the interface between art and art history.",
         artistsWebsite: "https://isabellecornaro.com/",
-        logo: logo1,
+        logo: logo2,
         images: [
           {
             id: 1,
@@ -52,40 +82,18 @@ export const BOOKS = [
             imgFile: coverImage3
           },     
         ],
-        media: [
-          {
-            id: 1,
-            videoFile: video1,
-          },
-          {
-            id: 2,
-            videoFile: video2
-          }
-        ],
+        // media: [
+        //   {
+        //     id: 1,
+        //     videoFile: video1,
+        //   },
+        //   {
+        //     id: 2,
+        //     videoFile: video2
+        //   }
+        // ],
         available: true,
       },
-      // {
-      //   id: 2,
-      //   bookTitle: "SECOND BOOK",
-      //   artist: "second artist",
-      //   urlText: "second-artist",
-      //   year: 2025,
-      //   pages: 45,
-      //   size: "24 x 30 cm",
-      //   binding: "staplebound",
-      //   price: "EU 30.-",
-      //   edition: "First",
-      //   editionAmount: 220,
-      //   attribution:
-      //     "Published on occasion of the exhibition SECOND BOOK, from March 21 to June 29, 2024, at Fondazione Giuliani, Roma by e.bs editionsbierisusanne CH-3012 Bern (main office) and IT-06031 Bevagna (PG) (additional office/non-profi t project space Via Santa Maria 7) 2024. Realized by La Tipografica Bevagna.",
-      //   notes:
-      //     "No text or explanation, so-called BAT - reproduced and overworked reproductions - combine to form a cinematic outline through spray paintings and their multiple enlargements into infinity.",
-      //   bio: "Second Artist bio - born 1974, France. Lives and works in Paris and Geneva - her practice includes video, installation, sculpture, painting, scenography as well as edition and artist's books...; she explores the relationship between the object and its image, the original and its copy and the interface between art and art history.",
-      //   artistsWebsite: "https://secondartist.com/",
-      //   logo: logo2,
-      //   coverImage: coverImage2,
-      //   available: true,
-      // },
       // {
       //   id: 3,
       //   bookTitle: "Third BOOK",
