@@ -25,6 +25,7 @@ export const BOOKS = [
      {
         id: 1,
         bookTitle: "",
+        headerArtist: "",
         artist: "Vaclav Pozarek",
         urlText: "first-book",
         year: 2023,
@@ -55,6 +56,7 @@ export const BOOKS = [
     {
         id: 2,
         bookTitle: "LAWS, MATTER",
+        headerArtist: "Isabelle Cornaro",
         artist: "Isabelle Cornaro",
         urlText: "isabelle-cornaro",
         year: 2024,

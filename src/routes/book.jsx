@@ -39,7 +39,7 @@ export default function Book() {
       <div className="">
         <div className="">
           <h2 className="flex absolute py-1 inset-x-0 top-0 justify-center">
-            {book.bookTitle}  {book.artist}
+            {book.bookTitle}  {book.headerArtist}
           </h2>
           <Navbar />
           {/* <img className="h-32" src={book.logo} alt="" /> */}
