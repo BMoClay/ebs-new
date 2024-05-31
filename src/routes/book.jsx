@@ -65,7 +65,7 @@ export default function Book() {
              
               <p className="py-2">{book.notes}</p>
               <br />
-              <p><b>{book.bio}</b></p>
+              <p>{book.bio}</p>
             </div>
             <div className="sm:col-span-4 text-xs px-4 ">
               <div className="grid grid-cols-6 sm:col-span-2 items-baseline py-1">
