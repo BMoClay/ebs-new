@@ -18,6 +18,7 @@ import logo12 from "/assets/logos/Fiery_Color_020 copy 2.png";
 // import dodecahedron from "/assets/IMG_7556 copy.jpeg";
 import dodecahedron from "/assets/small poly.png";
 import inSitu1 from "/assets/inSituImages/IMG_9269 copy.jpeg"
+import logo1 from "/assets/logos/Fiery_Color_021 copy 2.png";
 
 export async function loader() {
   const books = await getBooks();
@@ -30,7 +31,7 @@ const dog = inSitu1
 
 export default function Root() {
   //   const { logos, books, inSituImages } = useLoaderData();
-  const { books, inSituImages } = useLoaderData();
+  const { books } = useLoaderData();
 
   //   const availableBooks = books.filter((book) => book.available);
   //   const booksNotYetAvailable = books.filter((book) => !book.available);
@@ -41,6 +42,19 @@ export default function Root() {
   return (
     <>
       <div className="pt-3 pb-2 px-2.5">
+        {/* <Link to={`books/1`} key={`1`} className="">
+          <div className="flex pb-[0.5px] items-baseline ">
+            <img src={logo1} alt="" className="w-10 "></img>
+            <h1 className="px-0.5 text-xs">2023</h1>
+          </div>
+        </Link> */}
+        {/* <div className="flex pb-[0.5px] items-baseline ">
+          <a href="books/1">
+            <img src={logo1} alt="" className="w-10 ">
+          </img>
+          </a>
+          <h1 className="px-0.5 text-xs">2023</h1>
+        </div> */}
         {books.map((book) => (
           <Link to={`books/${book.id}`} key={book.id} className="">
             <div className="flex pb-[0.5px] items-baseline">
@@ -50,48 +64,48 @@ export default function Root() {
           </Link>
         ))}
         <div className="flex pb-[0.5px] items-baseline ">
-          <img src={logo2} alt="" className="w-10" />
-          <h1 className="px-0.5 text-xs">tbd</h1>
+          <img src={logo2} alt="" className="w-10 py-0.5" />
+          <h1 className="px-0.5 text-xs"></h1>
         </div>
         <div className="flex items-baseline ">
-          <img src={logo3} alt="" className="w-10" />
-          <h1 className="px-0.5 text-xs">tbd</h1>
+          <img src={logo3} alt="" className="w-10 py-0.5" />
+          <h1 className="px-0.5 text-xs"></h1>
         </div>
         <div className="flex items-baseline ">
-          <img src={logo4} alt="" className="w-10" />
-          <h1 className="px-0.5 text-xs">tbd</h1>
+          <img src={logo4} alt="" className="w-10 py-0.5" />
+          <h1 className="px-0.5 text-xs"></h1>
         </div>
         <div className="flex items-baseline ">
-          <img src={logo5} alt="" className="w-10" />
-          <h1 className="px-0.5 text-xs">tbd</h1>
+          <img src={logo5} alt="" className="w-10 py-0.5" />
+          <h1 className="px-0.5 text-xs"></h1>
         </div>
         <div className="flex items-baseline ">
-          <img src={logo6} alt="" className="w-10" />
-          <h1 className="px-0.5 text-xs">tbd</h1>
+          <img src={logo6} alt="" className="w-10 py-0.5" />
+          <h1 className="px-0.5 text-xs"></h1>
         </div>
         <div className="flex items-baseline ">
-          <img src={logo7} alt="" className="w-10" />
-          <h1 className="px-0.5 text-xs">tbd</h1>
+          <img src={logo7} alt="" className="w-10 py-0.5" />
+          <h1 className="px-0.5 text-xs"></h1>
         </div>
         <div className="flex items-baseline ">
-          <img src={logo8} alt="" className="w-10" />
-          <h1 className="px-0.5 text-xs">tbd</h1>
+          <img src={logo8} alt="" className="w-10 py-0.5" />
+          <h1 className="px-0.5 text-xs"></h1>
         </div>
         <div className="flex items-baseline ">
-          <img src={logo9} alt="" className="w-10" />
-          <h1 className="px-0.5 text-xs">tbd</h1>
+          <img src={logo9} alt="" className="w-10 py-0.5" />
+          <h1 className="px-0.5 text-xs"></h1>
         </div>
         <div className="flex items-baseline ">
-          <img src={logo10} alt="" className="w-10" />
-          <h1 className="px-0.5 text-xs">tbd</h1>
+          <img src={logo10} alt="" className="w-10 py-0.5" />
+          <h1 className="px-0.5 text-xs"></h1>
         </div>
         <div className="flex items-baseline ">
-          <img src={logo11} alt="" className="w-10" />
-          <h1 className="px-0.5 text-xs">tbd</h1>
+          <img src={logo11} alt="" className="w-10 py-0.5" />
+          <h1 className="px-0.5 text-xs"></h1>
         </div>
         <div className="flex items-baseline ">
-          <img src={logo12} alt="" className="w-10" />
-          <h1 className="px-0.5 text-xs">tbd</h1>
+          <img src={logo12} alt="" className="w-10 py-0.5" />
+          <h1 className="px-0.5 text-xs"></h1>
         </div>
         {/* <div className="flex items-baseline ">
           <img src={logo13} alt="" className="w-10" />
@@ -143,7 +157,7 @@ export default function Root() {
       <div className="px-3">
         <Info />
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center  py-8">
         <img src={dodecahedron} alt="" className="w-48 pb-5" />
       </div>
     </>

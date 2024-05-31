@@ -17,30 +17,33 @@ import coverImage2 from "/assets/coverImages/IMG_9393 copy.jpg";
 import coverImage3 from "/assets/coverImages/IMG_9409 copy.jpg";
 // import video1 from "/assets/coverImages/IMG_9401.mp4"
 // import video2 from "/assets/coverImages/IMG_9408.mp4"
+
 import dog from "/assets/inSituImages/IMG_9269 copy.jpeg"
 import logo1 from "/assets/logos/Fiery_Color_021 copy 2.png";
 
 export const BOOKS = [
      {
         id: 1,
-        bookTitle: "FIRST BOOK",
-        artist: "Vaclav and Susanne",
+        bookTitle: "",
+        artist: "Vaclav Pozarek",
         urlText: "first-book",
         year: 2023,
         pages: 12,
-        size: "24 x 30 cm",
+        size: "7.5 x 10.5 cm",
         binding: "staplebound",
         price: "EU 30.-",
         edition: "First",
         editionAmount: 220,
         attribution:
-          "Published on occasion of the exhibition SECOND BOOK, from March 21 to June 29, 2024, at Fondazione Giuliani, Roma by e.bs editionsbierisusanne CH-3012 Bern (main office) and IT-06031 Bevagna (PG) (additional office/non-profi t project space Via Santa Maria 7) 2024. Realized by La Tipografica Bevagna.",
+          "",
         notes:
-          "No text or explanation, so-called BAT - reproduced and overworked reproductions - combine to form a cinematic outline through spray paintings and their multiple enlargements into infinity.",
-        bio: "Second Artist bio - born 1974, France. Lives and works in Paris and Geneva - her practice includes video, installation, sculpture, painting, scenography as well as edition and artist's books...; she explores the relationship between the object and its image, the original and its copy and the interface between art and art history.",
-        artistsWebsite: "https://secondartist.com/",
+          "",
+        bio: "",
+        websiteUrl: "https://editionsbierisusanne-ebs.ch/",
+        website: "editionsbierisusanne-ebs.ch",
         logo: logo1,
         // coverImage: dog,
+        sliderStyles: "none",
         images: [
           {
             id: 1,
@@ -61,12 +64,11 @@ export const BOOKS = [
         price: "EU 30.-",
         edition: "First",
         editionAmount: 220,
-        attribution:
-          "Published on occasion of the exhibition MOTHER, LAWS, MATTER, from March 21 to June 29, 2024, at Fondazione Giuliani, Roma by e.bs editionsbierisusanne CH-3012 Bern (main office) and IT-06031 Bevagna (PG) (additional office/non-profit project space Via Santa Maria 7) 2024. Realized by La Tipografica Bevagna.",
-        notes:
-          "No text or explanation, so-called BAT - reproduced and overworked reproductions - combine to form a cinematic outline through spray paintings and their multiple enlargements into infinity.",
+        attribution:  "No text or explanation, so-called BAT - reproduced and overworked reproductions - combine to form a cinematic outline through spray paintings and their multiple enlargements into infinity.",          
+        notes: "Published on occasion of the exhibition MOTHER, LAWS, MATTER, from March 21 to June 29, 2024, at Fondazione Giuliani, Roma by e.bs editionsbierisusanne CH-3012 Bern (main office) and IT-06031 Bevagna (PG) (additional office/non-profit project space Via Santa Maria 7) 2024. Realized by La Tipografica Bevagna.",
         bio: "Isabelle CORNARO - born 1974, France. Lives and works in Paris and Geneva - her practice includes video, installation, sculpture, painting, scenography as well as edition and artist's books...; she explores the relationship between the object and its image, the original and its copy and the interface between art and art history.",
-        artistsWebsite: "https://isabellecornaro.com/",
+        websiteUrl: "https://isabellecornaro.com/",
+        website: "isabellecornaro.com",
         logo: logo2,
         images: [
           {
