@@ -18,7 +18,7 @@ import coverImage3 from "/assets/coverImages/IMG_9409 copy.jpg";
 // import video1 from "/assets/coverImages/IMG_9401.mp4"
 // import video2 from "/assets/coverImages/IMG_9408.mp4"
 
-import dog from "/assets/inSituImages/IMG_9269 copy.jpeg"
+import dog from "/assets/inSituImages/IMG_9270 copy.jpeg"
 import logo1 from "/assets/logos/Fiery_Color_021 copy 2.png";
 
 export const BOOKS = [
