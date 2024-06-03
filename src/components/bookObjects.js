@@ -1,16 +1,16 @@
 import logo2 from "/assets/logosBig/Fiery_Color_021.png";
-// import logo2 from "/assets/logos/Fiery_Color_010_ok copy.png";
-// import logo3 from "/assets/logos/Fiery_Color_011 copy.png";
-// import logo4 from "/assets/logos/Fiery_Color_012 copy.png";
-// import logo5 from "/assets/logos/Fiery_Color_013 copy.png";
-// import logo6 from "/assets/logos/Fiery_Color_014 copy.png";
-// import logo7 from "/assets/logos/Fiery_Color_015 copy.png";
-// import logo8 from "/assets/logos/Fiery_Color_016 copy.png";
-// import logo9 from "/assets/logos/Fiery_Color_017 copy.png";
-// import logo10 from "/assets/logos/Fiery_Color_018 copy.png";
-// import logo11 from "/assets/logos/Fiery_Color_019 copy.png";
-// import logo12 from "/assets/logos/Fiery_Color_020 copy.png";
-// import logo13 from "/assets/logos/Fiery_Color_008 copy.png";
+import logoA2 from "/assets/logosBookPage/Fiery_Color_010_ok copy 3.png";
+import logoA3 from "/assets/logosBookPage/Fiery_Color_011 copy 3.png";
+import logoA4 from "/assets/logosBookPage/Fiery_Color_012 copy 3.png";
+import logoA5 from "/assets/logosBookPage/Fiery_Color_013 copy 3.png";
+import logoA6 from "/assets/logosBookPage/Fiery_Color_014 copy 3.png";
+import logoA7 from "/assets/logosBookPage/Fiery_Color_015 copy 3.png";
+import logoA8 from "/assets/logosBookPage/Fiery_Color_016 copy 3.png";
+import logoA9 from "/assets/logosBookPage/Fiery_Color_017 copy 3.png";
+import logoA10 from "/assets/logosBookPage/Fiery_Color_018 copy 3.png";
+import logoA11 from "/assets/logosBookPage/Fiery_Color_019 copy 3.png";
+import logoA12 from "/assets/logosBookPage/Fiery_Color_020 copy 3.png";
+import logoA13 from "/assets/logosBookPage/Fiery_Color_008 copy 3.png";
 
 import coverImage1 from "/assets/coverImages/IMG_9389 copy.jpg";
 import coverImage2 from "/assets/coverImages/IMG_9393 copy.jpg";
@@ -20,6 +20,7 @@ import coverImage3 from "/assets/coverImages/IMG_9409 copy.jpg";
 
 import dog from "/assets/inSituImages/IMG_9270 copy.jpeg"
 import logo1 from "/assets/logos/Fiery_Color_021 copy 2.png";
+// import logo3 from "/assets/logos/Fiery_Color_010_ok copy 2.png"
 
 export const BOOKS = [
      {
@@ -49,7 +50,55 @@ export const BOOKS = [
           {
             id: 1,
             imgFile: dog
-          }
+          },
+          {
+            id: 2,
+            imgFile: logoA2
+          },
+          {
+            id: 3,
+            imgFile: logoA3
+          },
+          {
+            id: 4,
+            imgFile: logoA4
+          },
+          {
+            id: 5,
+            imgFile: logoA5
+          },
+          {
+            id: 6,
+            imgFile: logoA6
+          },
+          {
+            id: 7,
+            imgFile: logoA7
+          },
+          {
+            id: 8,
+            imgFile: logoA8
+          },
+          {
+            id: 9,
+            imgFile: logoA9
+          },
+          {
+            id: 10,
+            imgFile: logoA10
+          },
+          {
+            id: 11,
+            imgFile: logoA11
+          },
+          {
+            id: 12,
+            imgFile: logoA12
+          },
+          {
+            id: 13,
+            imgFile: logoA13
+          },
         ],
         available: true,
       },
