@@ -14,7 +14,20 @@ import logo9 from "/assets/logos/Fiery_Color_017 copy 2.png";
 import logo10 from "/assets/logos/Fiery_Color_018 copy 2.png";
 import logo11 from "/assets/logos/Fiery_Color_019 copy 2.png";
 import logo12 from "/assets/logos/Fiery_Color_020 copy 2.png";
-// import logo13 from "/assets/logos/Fiery_Color_021 copy 2.png";
+
+// import logoA2 from "/assets/newLogos/Untitled-1 copy.png";
+// import logoA3 from "/assets/newLogos/Untitled-2.png";
+// import logoA4 from "/assets/newLogos/Untitled-3.png";
+// import logoA5 from "/assets/newLogos/Untitled-4.png";
+// import logoA6 from "/assets/newLogos/Untitled-5.png";
+// import logoA7 from "/assets/newLogos/Untitled-6.png";
+// import logoA8 from "/assets/newLogos/Untitled-7.png";
+// import logoA9 from "/assets/newLogos/Untitled-8.png";
+// import logoA10 from "/assets/newLogos/Untitled-9.png";
+// import logoA11 from "/assets/newLogos/Untitled-10.png";
+// import logoA12 from "/assets/newLogos/Untitled-11.png";
+
+// import logo13 from "/assets/newLogos/Untitled-.png";
 // import dodecahedron from "/assets/IMG_7556 copy.jpeg";
 import dodecahedron from "/assets/small poly.png";
 import inSitu1 from "/assets/inSituImages/IMG_9269 copy.jpeg"
@@ -121,7 +134,7 @@ export default function Root() {
       <hr />
       <div className="px-2 py-2">
         
-        <div>
+        <div className="max-w-6xl">
           <img src={dog}/>
         </div>
         {/* <h1 className=" font-bold">e.bs</h1>
