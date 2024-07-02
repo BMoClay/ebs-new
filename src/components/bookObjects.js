@@ -18,6 +18,27 @@ import coverImage3 from "/assets/coverImages/IMG_9409 copy.jpg";
 // import video1 from "/assets/coverImages/IMG_9401.mp4"
 // import video2 from "/assets/coverImages/IMG_9408.mp4"
 
+import isaCorWOP1 from "/assets/coverImages/1 copy 2.jpg";
+import isaCorWOP2 from "/assets/coverImages/2 copy 2.jpg";
+import isaCorWOP3 from "/assets/coverImages/3 copy 2.jpg";
+import isaCorWOP4 from "/assets/coverImages/4 copy 2.jpg";
+import isaCorWOP5 from "/assets/coverImages/5 copy 2.jpg";
+import isaCorWOP6 from "/assets/coverImages/6 copy 2.jpg";
+import isaCorWOP7 from "/assets/coverImages/7 copy 2.jpg";
+import isaCorWOP8 from "/assets/coverImages/8 copy 2.jpg";
+import isaCorWOP9 from "/assets/coverImages/9 copy 2.jpg";
+import isaCorWOP10 from "/assets/coverImages/10 copy 2.jpg";
+import isaCorWOP11 from "/assets/coverImages/11 copy 2.jpg";
+import isaCorWOP12 from "/assets/coverImages/12 copy 2.jpg";
+import isaCorWOP13 from "/assets/coverImages/13 copy 2.jpg";
+import isaCorWOP14 from "/assets/coverImages/14 copy 2.jpg";
+import isaCorWOP15 from "/assets/coverImages/15 copy 2.jpg";
+import isaCorWOP16 from "/assets/coverImages/16 copy 2.jpg";
+import isaCorWOP17 from "/assets/coverImages/17 copy 2.jpg";
+import isaCorWOP18 from "/assets/coverImages/18 copy 2.jpg";
+import isaCorWOP19 from "/assets/coverImages/19 copy 2.jpg";
+import isaCorWOP20 from "/assets/coverImages/20 copy 2.jpg";
+
 import dog from "/assets/inSituImages/IMG_9270 copy.jpeg"
 import logo1 from "/assets/logos/Fiery_Color_021 copy 2.png";
 // import logo3 from "/assets/logos/Fiery_Color_010_ok copy 2.png"
@@ -133,7 +154,87 @@ export const BOOKS = [
           {
             id: 3,
             imgFile: coverImage3
-          },     
+          },  
+          {
+            id: 4,
+            imgFile: isaCorWOP1
+          },
+          {
+            id: 5,
+            imgFile: isaCorWOP2
+          },
+          {
+            id: 6,
+            imgFile: isaCorWOP3
+          },  
+          {
+            id: 7,
+            imgFile: isaCorWOP4
+          },  
+          {
+            id: 8,
+            imgFile: isaCorWOP5
+          },  
+          {
+            id: 9,
+            imgFile: isaCorWOP6
+          },  
+          {
+            id: 10,
+            imgFile: isaCorWOP7
+          },  
+          {
+            id: 11,
+            imgFile: isaCorWOP8
+          },  
+          {
+            id: 12,
+            imgFile: isaCorWOP9
+          },  
+          {
+            id: 13,
+            imgFile: isaCorWOP10
+          },  
+          {
+            id: 14,
+            imgFile: isaCorWOP11
+          },  
+          {
+            id: 15,
+            imgFile: isaCorWOP12
+          },  
+          {
+            id: 16,
+            imgFile: isaCorWOP13
+          },  
+          {
+            id: 17,
+            imgFile: isaCorWOP14
+          },  
+          {
+            id: 18,
+            imgFile: isaCorWOP15
+          },  
+          {
+            id: 19,
+            imgFile: isaCorWOP16
+          },  
+          {
+            id: 20,
+            imgFile: isaCorWOP17
+          },  
+          {
+            id: 21,
+            imgFile: isaCorWOP18
+          },  
+          {
+            id: 22,
+            imgFile: isaCorWOP19
+          },  
+          {
+            id: 23,
+            imgFile: isaCorWOP20
+          }
         ],
         // media: [
         //   {
