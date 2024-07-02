@@ -5,7 +5,7 @@ const Info = () => {
         <h1>e.bs</h1>
         <p>
           editionsbierisusanne-ebs is an artists' book publisher with
-          headquarters in Bern/CH and a second office in Bevagna/IT. ebs
+          headquarters in Bern/CH and a second office in Bevagna/IT.  ebs
           artists' publications are produced in collaboration with artists and
           institutions according to their own rules.
         </p>
