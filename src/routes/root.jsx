@@ -41,6 +41,14 @@ export default function Root() {
             </div>
           </Link>
         ))}
+         {books.map((book) => (
+          <Link to={`books/${book.id}`} key={book.id} className="">
+            <div className="flex pb-[0.5px] items-baseline">
+              
+              <h1 className="px-0.5 text-xs"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2024*</span></h1>
+            </div>
+          </Link>
+        ))}
         <div className="flex pb-[0.5px] items-baseline ">
           <img src={logo2} alt="" className="w-10 py-0.5" />
           <h1 className="px-0.5 text-xs"></h1>
