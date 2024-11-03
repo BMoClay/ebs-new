@@ -2,7 +2,7 @@ const Info = () => {
   return (
     <div id="info" className="text-xs">
       <div className="py-2">
-        <h1>e.bs</h1>
+        <h1>e.bs test</h1>
         <p>
           editionsbierisusanne-ebs is an artists' book publisher with
           headquarters in Bern/CH and a second office in Bevagna/IT.  ebs

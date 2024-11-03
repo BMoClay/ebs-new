@@ -2,6 +2,7 @@ import { Link, useLoaderData } from "react-router-dom";
 import { getBooks, getInSituImages } from "../books.js";
 import Info from "../components/Info.jsx";
 
+
 import logo2 from "/assets/logos/Fiery_Color_010_ok copy 2.png";
 import logo3 from "/assets/logos/Fiery_Color_011 copy 2.png";
 import logo4 from "/assets/logos/Fiery_Color_012 copy 2.png";
@@ -16,7 +17,7 @@ import logo12 from "/assets/logos/Fiery_Color_020 copy 2.png";
 
 import dodecahedron from "/assets/small poly.png";
 import inSitu1 from "/assets/inSituImages/IMG_9269 copy.jpeg"
-import logo1 from "/assets/logos/Fiery_Color_021 copy 2.png";
+import logo1 from "/assets/logos/Fiery_Color_001 copy.png";
 
 export async function loader() {
   const books = await getBooks();
@@ -41,6 +42,12 @@ export default function Root() {
             </div>
           </Link>
         ))}
+        {/* <Link to={`books/3}`} key={3} className=""> 
+          <div className="flex pb-[0.5px] items-baseline ">
+            <img src={logo1} alt="" className="w-10 py-0.5" />
+            <h1 className="px-0.5 text-xs">2024 *</h1>
+          </div>
+        </Link> */}
         <div className="flex pb-[0.5px] items-baseline ">
           <img src={logo2} alt="" className="w-10 py-0.5" />
           <h1 className="px-0.5 text-xs"></h1>
