@@ -1,7 +1,7 @@
 import { Link, useLoaderData } from "react-router-dom";
 import { getBooks, getInSituImages } from "../books.js";
 import Info from "../components/Info.jsx";
-import Test from "../components/test.jsx"
+
 
 import logo2 from "/assets/logos/Fiery_Color_010_ok copy 2.png";
 import logo3 from "/assets/logos/Fiery_Color_011 copy 2.png";
@@ -33,7 +33,6 @@ export default function Root() {
   const { books } = useLoaderData();
   return (
     <>
-    <Test/>
       <div className="pt-3 pb-2 px-2.5">
         {books.map((book) => (
           <Link to={`books/${book.id}`} key={book.id} className="">

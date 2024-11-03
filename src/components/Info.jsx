@@ -2,7 +2,6 @@ const Info = () => {
   return (
     <div id="info" className="text-xs">
       <div className="py-2">
-        <h2>new branch test</h2>
         <h1>e.bs</h1>
         <p>
           editionsbierisusanne-ebs is an artists' book publisher with
