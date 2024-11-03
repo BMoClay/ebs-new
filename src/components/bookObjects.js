@@ -39,7 +39,7 @@ import isaCorWOP18 from "/assets/coverImages/18 copy 2.jpg";
 import isaCorWOP19 from "/assets/coverImages/19 copy 2.jpg";
 import isaCorWOP20 from "/assets/coverImages/20 copy 2.jpg";
 
-import dog from "/assets/inSituImages/IMG_9270 copy.jpeg"
+import dog from "/assets/inSituImages/IMG_9270 copy 2.jpeg"
 import logo1 from "/assets/logos/Fiery_Color_021 copy 2.png";
 // import logo3 from "/assets/logos/Fiery_Color_010_ok copy 2.png"
 
@@ -236,115 +236,8 @@ export const BOOKS = [
             imgFile: isaCorWOP20
           }
         ],
-        // media: [
-        //   {
-        //     id: 1,
-        //     videoFile: video1,
-        //   },
-        //   {
-        //     id: 2,
-        //     videoFile: video2
-        //   }
-        // ],
         available: true,
       },
-      // {
-      //   id: 3,
-      //   bookTitle: "Third BOOK",
-      //   artist: "third artist",
-      //   urlText: "third-artist",
-      //   year: 2026,
-      //   pages: 45,
-      //   size: "24 x 30 cm",
-      //   binding: "staplebound",
-      //   price: "EU 30.-",
-      //   edition: "First",
-      //   editionAmount: 220,
-      //   attribution:
-      //     "Published on occasion of the exhibition third BOOK, from March 21 to June 29, 2024, at Fondazione Giuliani, Roma by e.bs editionsbierisusanne CH-3012 Bern (main office) and IT-06031 Bevagna (PG) (additional office/non-profi t project space Via Santa Maria 7) 2024. Realized by La Tipografica Bevagna.",
-      //   notes:
-      //     "No text or explanation, so-called BAT - reproduced and overworked reproductions - combine to form a cinematic outline through spray paintings and their multiple enlargements into infinity.",
-      //   bio: "third Artist bio - born 1974, France. Lives and works in Paris and Geneva - her practice includes video, installation, sculpture, painting, scenography as well as edition and artist's books...; she explores the relationship between the object and its image, the original and its copy and the interface between art and art history.",
-      //   artistsWebsite: "https://thirdartist.com/",
-      //   logo: logo3,
-      //   coverImage: coverImage3,
-      //   available: true,
-      // },
-      // {
-      //   id: 4,
-      //   bookTitle: "fourth BOOK",
-      //   artist: "fourth artist",
-      //   urlText: "fourth-artist",
-      //   year: 2026,
-      //   pages: 45,
-      //   size: "24 x 30 cm",
-      //   binding: "staplebound",
-      //   price: "EU 30.-",
-      //   edition: "First",
-      //   editionAmount: 220,
-      //   attribution:
-      //     "Published on occasion of the exhibition fourth BOOK, from March 21 to June 29, 2024, at Fondazione Giuliani, Roma by e.bs editionsbierisusanne CH-3012 Bern (main office) and IT-06031 Bevagna (PG) (additional office/non-profi t project space Via Santa Maria 7) 2024. Realized by La Tipografica Bevagna.",
-      //   notes:
-      //     "No text or explanation, so-called BAT - reproduced and overworked reproductions - combine to form a cinematic outline through spray paintings and their multiple enlargements into infinity.",
-      //   bio: "fourth Artist bio - born 1974, France. Lives and works in Paris and Geneva - her practice includes video, installation, sculpture, painting, scenography as well as edition and artist's books...; she explores the relationship between the object and its image, the original and its copy and the interface between art and art history.",
-      //   artistsWebsite: "https://fourthartist.com/",
-      //   logo: logo4,
-      //   coverImage: coverImage3,
-      //   available: true,
-      // },
-      // {
-      //   id: 5,
-      //   urlText: 'not-made-yet',
-      //   logo: logo5,
-      //   available: false,
-      // },
-      // {
-      //   id: 6,
-      //   urlText: 'not-made-yet',
-      //   logo: logo6,
-      //   available: false,
-      // },
-      // {
-      //   id: 7,
-      //   urlText: 'not-made-yet',
-      //   logo: logo7,
-      //   available: false,
-      // },
-      // {
-      //   id: 8,
-      //   urlText: 'not-made-yet',
-      //   logo: logo8,
-      //   available: false,
-      // },
-      // {
-      //   id: 9,
-      //   urlText: 'not-made-yet',
-      //   logo: logo9,
-      //   available: false,
-      // },
-      // {
-      //   id: 10,
-      //   urlText: 'not-made-yet',
-      //   logo: logo10,
-      //   available: false,
-      // },
-      // {
-      //   id: 11,
-      //   urlText: 'not-made-yet',
-      //   logo: logo11,
-      //   available: false,
-      // },
-      // {
-      //   id: 12,
-      //   urlText: 'not-made-yet',
-      //   logo: logo12,
-      //   available: false,
-      // },
-      // {
-      //   id: 13,
-      //   urlText: 'not-made-yet',
-      //   logo: logo13,
-      //   available: false,
-      // }
+   
 ]
 
