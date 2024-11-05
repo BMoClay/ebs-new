@@ -64,7 +64,14 @@ export default function Book() {
               <p >{book.attribution}</p>
              
               <p className="py-2">{book.notes}</p>
-              <br />
+              <p className="py-1 pl-4">{book.notes2}</p>
+              <p className="py-1">{book.notes3}</p>
+              <p className="py-1 pl-4">{book.notes4}</p>
+              <p className="py-1">{book.notes5}</p>
+              <p className="py-1 pl-4">{book.notes6}</p>
+              <p className="py-1">{book.notes7}</p>
+              <p className="py-1 pl-4">{book.notes8}</p>
+             <br />
               <p>{book.bio}</p>
             </div>
             <div className="sm:col-span-4 text-xs px-4 ">
@@ -72,11 +79,11 @@ export default function Book() {
                 <h3 className="sm:col-span-2 ">Logo{" "}</h3>
                 <img src={book.logo} alt={book.artist} className="w-10" />
               </div>
-              {/* <hr />
+              <hr />
               <div className="grid grid-cols-6 items-baseline py-1">
                 <h3 className="sm:col-span-2 ">Title</h3>
                 <h3 className="sm:col-span-3">{book.bookTitle}</h3>
-              </div> */}
+              </div>
               <hr />
               <div className="grid grid-cols-6 items-baseline py-1">
                 <h3 className="sm:col-span-2 ">Artist </h3>

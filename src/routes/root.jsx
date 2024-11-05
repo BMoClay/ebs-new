@@ -1,6 +1,7 @@
 import { Link, useLoaderData } from "react-router-dom";
 import { getBooks, getInSituImages } from "../books.js";
 import Info from "../components/Info.jsx";
+import NewsContainer from "../components/NewsContainer.jsx";
 
 
 import logo2 from "/assets/logos/Fiery_Color_010_ok copy 2.png";
@@ -17,7 +18,7 @@ import logo12 from "/assets/logos/Fiery_Color_020 copy 2.png";
 
 import dodecahedron from "/assets/small poly.png";
 import inSitu1 from "/assets/inSituImages/IMG_9269 copy.jpeg"
-import logo1 from "/assets/logos/Fiery_Color_001 copy.png";
+// import logo1 from "/assets/logos/Fiery_Color_001 copy.png";
 
 export async function loader() {
   const books = await getBooks();
@@ -33,10 +34,17 @@ export default function Root() {
   const { books } = useLoaderData();
   return (
     <>
-      <div className="pt-3 pb-2 px-2.5">
+       {/* <div className="absolute pt-3 right-0 px-4">
+          <NewsContainer/>
+      </div> */}
+      <div className=" pt-3 pb-2 px-2.5">
+      <div className="absolute right-2 px-2">
+          <NewsContainer/>
+      </div>
         {books.map((book) => (
           <Link to={`books/${book.id}`} key={book.id} className="">
-            <div className="flex pb-[0.5px] items-baseline">
+            {/* <div className="flex pb-[0.5px] items-baseline"> */}
+            <div className="flex items-baseline">
               <img src={book.logo} className="w-10"></img>
               <h1 className="px-0.5 text-xs">{book.year}</h1>
             </div>
@@ -48,7 +56,7 @@ export default function Root() {
             <h1 className="px-0.5 text-xs">2024 *</h1>
           </div>
         </Link> */}
-        <div className="flex pb-[0.5px] items-baseline ">
+        <div className="flex pb-[0.5px] items-baseline  ">
           <img src={logo2} alt="" className="w-10 py-0.5" />
           <h1 className="px-0.5 text-xs"></h1>
         </div>
@@ -94,6 +102,9 @@ export default function Root() {
         </div>
       </div>
       <hr />
+      {/* <div className="absolute right-0">
+        <News/>
+      </div> */}
       
       <div className="flex justify-center">
         <div className="px-4 py-4 max-w-3xl">

@@ -1,10 +1,12 @@
-import logo2 from "/assets/logosBig/Fiery_Color_021.png";
+import blankLogo from "/assets/logos/blank.png";
+// import logo2 from "/assets/logosBig/Fiery_Color_021.png";
+import logo2 from "/assets/logos/Fiery_Color_021 5.png";
 import logoA2 from "/assets/logosBookPage/Fiery_Color_010_ok copy 3.png";
 import logoA3 from "/assets/logosBookPage/Fiery_Color_011 copy 3.png";
 import logoA4 from "/assets/logosBookPage/Fiery_Color_012 copy 3.png";
 import logoA5 from "/assets/logosBookPage/Fiery_Color_013 copy 3.png";
 import logoA6 from "/assets/logosBookPage/Fiery_Color_014 copy 3.png";
-import logoA7 from "/assets/logosBookPage/Fiery_Color_015 copy 3.png";
+import logoA7 from "/assets/logosBig/Fiery_Color_015 copy.png";
 import logoA8 from "/assets/logosBookPage/Fiery_Color_016 copy 3.png";
 import logoA9 from "/assets/logosBookPage/Fiery_Color_017 copy 3.png";
 import logoA10 from "/assets/logosBookPage/Fiery_Color_018 copy 3.png";
@@ -155,89 +157,145 @@ export const BOOKS = [
             id: 3,
             imgFile: coverImage3
           },  
+        ],
+        available: true,
+      },
+      {
+        id: 3,
+        bookTitle: "Edition for LAWS, MATTER",
+        headerArtist: "Isabelle Cornaro",
+        artist: "Isabelle Cornaro",
+        urlText: "isabelle-cornaro",
+        year: "2024*",
+        // pages: 44,
+        size: "24 x 30 cm",
+        // binding: "",
+        price: "EU 30.-",
+        edition: "First",
+        editionAmount: 20,
+        attribution:  "No text or explanation, so-called BAT - reproduced and overworked reproductions - combine to form a cinematic outline through spray paintings and their multiple enlargements into infinity.",          
+        notes: "Published on occasion of the exhibition MOTHER, LAWS, MATTER, from March 21 to June 29, 2024, at Fondazione Giuliani, Roma by e.bs editionsbierisusanne CH-3012 Bern (main office) and IT-06031 Bevagna (PG) (additional office/non-profit project space Via Santa Maria 7) 2024. Realized by La Tipografica Bevagna.",
+        bio: "Isabelle CORNARO - born 1974, France. Lives and works in Paris and Geneva - her practice includes video, installation, sculpture, painting, scenography as well as edition and artist's books...; she explores the relationship between the object and its image, the original and its copy and the interface between art and art history.",
+        websiteUrl: "https://isabellecornaro.com/",
+        website: "isabellecornaro.com",
+        logo: blankLogo,
+        images: [
           {
-            id: 4,
+            id: 1,
             imgFile: isaCorWOP1
-          },
+          }, 
           {
-            id: 5,
+            id: 2,
             imgFile: isaCorWOP2
-          },
+          }, 
           {
-            id: 6,
+            id: 3,
             imgFile: isaCorWOP3
           },  
           {
-            id: 7,
+            id: 4,
             imgFile: isaCorWOP4
+          },
+          {
+            id: 5,
+            imgFile: isaCorWOP5          
+          },
+          {
+            id: 6,
+            imgFile: isaCorWOP6          
+          },  
+          {
+            id: 7,
+            imgFile: isaCorWOP7          
           },  
           {
             id: 8,
-            imgFile: isaCorWOP5
+            imgFile: isaCorWOP8          
           },  
           {
             id: 9,
-            imgFile: isaCorWOP6
+            imgFile: isaCorWOP9          
           },  
           {
             id: 10,
-            imgFile: isaCorWOP7
+            imgFile: isaCorWOP10          
           },  
           {
             id: 11,
-            imgFile: isaCorWOP8
+            imgFile: isaCorWOP11          
           },  
           {
             id: 12,
-            imgFile: isaCorWOP9
+            imgFile: isaCorWOP12          
           },  
           {
             id: 13,
-            imgFile: isaCorWOP10
-          },  
-          {
-            id: 14,
-            imgFile: isaCorWOP11
-          },  
-          {
-            id: 15,
-            imgFile: isaCorWOP12
-          },  
-          {
-            id: 16,
             imgFile: isaCorWOP13
           },  
           {
-            id: 17,
+            id: 14,
             imgFile: isaCorWOP14
           },  
           {
-            id: 18,
+            id: 15,
             imgFile: isaCorWOP15
           },  
           {
-            id: 19,
+            id: 16,
             imgFile: isaCorWOP16
           },  
           {
-            id: 20,
+            id: 17,
             imgFile: isaCorWOP17
           },  
           {
-            id: 21,
+            id: 18,
             imgFile: isaCorWOP18
           },  
           {
-            id: 22,
+            id: 19,
             imgFile: isaCorWOP19
           },  
           {
-            id: 23,
+            id: 20,
             imgFile: isaCorWOP20
+          },  
+        ],
+        available: true,
+      },
+      {
+        id: 4,
+        bookTitle: "No",
+        headerArtist: "Sam Pulitzer",
+        artist: "Sam Pulitzer",
+        urlText: "sam-pulitzer",
+        year: "2024",
+        pages: 20,
+        size: "13 x 16 cm",
+        binding: "spiral bound in metal, three-fold cover",
+        price: "EU 30.-",
+        edition: "First",
+        editionAmount: 200,
+        attribution:  "INTERVIEW Sam Pulitzer, No:",          
+        notes: "You give one answer to the 20 questions defined in social, sociological, economic and climate-political terms: No. Why do you ask questions when you could just as easily state facts?",
+        notes2: " I take the imperative to “make art that asks questions” literally. In this instance, the results are rhetorical questions on the topic of social necessity. “No” can be a cry of indignation, the enunciation of protest whose repetition riles the senses. This is one tempo for reading the book: rapidly turning each page while saying, “no, no, no,” to yourself. With the answer known in advance, emphasis falls on content and its composition, the effect of how each term relates to another. The statement of fact would be one rhetorical exercise, what is in the book is merely another; it is a matter of style.",
+        notes3: "Each question in No consists of two to four quotations that you take from different contexts and break down in a detailed glossary. How do you work with these text fragments? Do you start with an idea of what you want to say and create something like a quotation file from which you then piece together this idea like a puzzle? How do you generally start with a question? ",
+        notes4: "Yes, the questions are pieced together like a puzzle. I keep a running list of terms and concepts which I consider representative of contemporary discourse. I then use either syllogism or analogy as a form to compose a question with a negative statement in view. The rhetorical flair of the questions, the effect of their statement–whether they are clear or perhaps even hazard paradox–becomes their decisive criteria. In terms of style, I prefer the referential insofar as it allows one to say more with less.  ",
+        notes5: "You limited yourself to 20 questions for No. Does this mean that we have an ultimate, condensed statement of the current disastrous state of the world in question form? In other words, is it also possible to reverse the questions so that they would be true if answered Yes? ",
+        notes6: "The acceptance of catastrophe is the primary motivation for the book’s negative emphasis. The work’s invocation of the parlor game, “20 questions,” is only an allusion insofar as it sets a meaningful limit to a task of representing a historical moment that seems limitless in its attributes. Some of the questions suggest paradox, so that the answer of “no” appears negligible. But if the questions were to be reversed so as to make affirmative answers, it would have to be a very careful operation–one that I intend to do. ",
+        notes7: "No is not your first artist's book. What does this form and materialization achieve, and what significance does this artist's book have in your work? Could you imagine the 20 questions and one answer perhaps even more succinctly in a context other than a book? ",
+        notes8: "I have always considered my exhibitions as books by another name. I have terrible vision and I often work very up close, so my work is never very far off the page, so to speak. It is only a question of how to suitably translate this intimate scale for exhibition. This makes an artist's book an ideal context for my practice insofar as it preserves the initial scale of my myopic method! Relatedly, I understand No as significant within the context of my work in that it is a departure toward the purely eidetic: aside from the book itself, the work consists of only questions and definitions. That is, mental activity.",
+        bio: "Sam Pulitzer (b. 1984 Fremont, NH, USA) works with various media, ranging from photography to installations to artist books. Pulitzer has had shows at Kunsthaus Glarus in 2019, Hamburger Bahnhof, Berlin in 2018, Etablissement d'en Face, Brussels in 2016 and Artists Space in 2014. Pulitzer has regularly exhibited in galleries, fairs, auctions and fundraising benefits throughout the North Atlantic since 2009. He has additionally published the occasional piece of art criticism over the years.",
+        websiteUrl: "",
+        website: "",
+        logo: logoA7,
+        images: [
+          {
+            id: 1,
+            imgFile: logoA7
           }
         ],
         available: true,
       },
-   
 ]
 
