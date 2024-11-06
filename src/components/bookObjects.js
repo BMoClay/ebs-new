@@ -6,7 +6,7 @@ import logoA3 from "/assets/logosBookPage/Fiery_Color_011 copy 3.png";
 import logoA4 from "/assets/logosBookPage/Fiery_Color_012 copy 3.png";
 import logoA5 from "/assets/logosBookPage/Fiery_Color_013 copy 3.png";
 import logoA6 from "/assets/logosBookPage/Fiery_Color_014 copy 3.png";
-import logoA7 from "/assets/logosBig/Fiery_Color_015 copy.png";
+import logoA7 from "/assets/logosBig/Fiery_Color_015 copy 3.png";
 import logoA8 from "/assets/logosBookPage/Fiery_Color_016 copy 3.png";
 import logoA9 from "/assets/logosBookPage/Fiery_Color_017 copy 3.png";
 import logoA10 from "/assets/logosBookPage/Fiery_Color_018 copy 3.png";
@@ -162,23 +162,30 @@ export const BOOKS = [
       },
       {
         id: 3,
-        bookTitle: "Edition for LAWS, MATTER",
+        bookTitle: "LAWS, MATTER: special edition",
         headerArtist: "Isabelle Cornaro",
         artist: "Isabelle Cornaro",
         urlText: "isabelle-cornaro",
         year: "2024*",
-        // pages: 44,
+        pages: 44,
         size: "24 x 30 cm",
-        // binding: "",
-        price: "EU 30.-",
-        edition: "First",
+        binding: "staplebound",
+        price: "CH/EU 450.-",
+        edition: "Special Edition, 20/220 copies, signed IC, numbered 1/20 - 20/20",
         editionAmount: 20,
-        attribution:  "No text or explanation, so-called BAT - reproduced and overworked reproductions - combine to form a cinematic outline through spray paintings and their multiple enlargements into infinity.",          
-        notes: "Published on occasion of the exhibition MOTHER, LAWS, MATTER, from March 21 to June 29, 2024, at Fondazione Giuliani, Roma by e.bs editionsbierisusanne CH-3012 Bern (main office) and IT-06031 Bevagna (PG) (additional office/non-profit project space Via Santa Maria 7) 2024. Realized by La Tipografica Bevagna.",
+        attribution:  "Isabelle Cornaro has added an original drawing to each of the 20 issues of the normal edition.",          
+        notes: "The drawings are of a sublime, impressive sobriety - a development or enlargement of basic lines that she worked out in series of four drawings (1/20-4/20; 5/20-8/20; 9/20-12/20; etc.), which Cornaro refers to as progressions - and in this respect are perfectly coherent with the booklet as a whole.",
+        notes2: "INTERVIEW Isabelle Cornaro",
+        notes3: "e.bs - Quelle a été ta principale motivation pour réaliser ce livre d'artiste ?",
+        notes4: "Isabelle Cornaro - Quand j’ai une idée pour un nouveau livre d’artiste - ici retravailler avec deux séries d’oeuvres existantes pour les mettre en perspective, Reproductions (Body and Metal Fluids) et Bons à tirer - j’essaie que sa publication accompagne l’ouverture d’une exposition personnelle, en l’occurrence Mother, Laws, Matter, qui a ouvert à la Fondazione Giuliani à Rome au printemps dernier.",
+        notes5: "e.bs - Qu'est-ce que ce livre apporte en contraste/ou en complément de l'exposition presque homonyme Mother, Laws, Matter »?",
+        notes6: "IC - J'espère qu’il souligne quelques intentions de l’exposition, annoncée dans son titre : le rapport à la matière, ici représenté par l’agrandissement successif des peintures au spray, la représentation en perspective - inventée à la Renaissance, et qui a accompagné l’expansion territoriale Européenne.",
+        notes7: "e.bs - Quelle est la place de &quot;Laws, Matter&quot; dans ton œuvre ?",
+        notes8: "IC - Je ne sais pas encore! Il rejoint en tout cas ceux réalisés précédemment Plinths Arrangements, Black Maria, Situations optiques, A sort of Commercial Eroticness.",
         bio: "Isabelle CORNARO - born 1974, France. Lives and works in Paris and Geneva - her practice includes video, installation, sculpture, painting, scenography as well as edition and artist's books...; she explores the relationship between the object and its image, the original and its copy and the interface between art and art history.",
         websiteUrl: "https://isabellecornaro.com/",
         website: "isabellecornaro.com",
-        logo: blankLogo,
+        logo: logo2,
         images: [
           {
             id: 1,
