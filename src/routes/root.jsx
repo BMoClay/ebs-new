@@ -1,5 +1,5 @@
 import { Link, useLoaderData } from "react-router-dom";
-import { getBooks, getInSituImages } from "../books.js";
+import { getBooks, getInSituImages, getVideos } from "../books.js";
 import Info from "../components/Info.jsx";
 import NewsContainer from "../components/NewsContainer.jsx";
 
@@ -23,6 +23,7 @@ import inSitu1 from "/assets/inSituImages/IMG_9269 copy.jpeg"
 export async function loader() {
   const books = await getBooks();
   const inSituImages = await getInSituImages();
+    // const videos = await getVideos ();
   //   const logos = await getLogos();
   return { books, inSituImages };
 }
