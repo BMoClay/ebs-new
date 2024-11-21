@@ -23,9 +23,9 @@ import inSitu1 from "/assets/inSituImages/IMG_9269 copy.jpeg"
 export async function loader() {
   const books = await getBooks();
   const inSituImages = await getInSituImages();
-    const videos = await getVideos ();
+    // const videos = await getVideos ();
   //   const logos = await getLogos();
-  return { books, inSituImages, videos };
+  return { books, inSituImages };
 }
 
 const dog = inSitu1
