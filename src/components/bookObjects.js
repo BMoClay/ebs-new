@@ -44,6 +44,7 @@ import isaCorWOP20 from "/assets/coverImages/20 copy 2.jpg";
 import dog from "/assets/inSituImages/IMG_9270 copy 2.jpeg"
 import logo1 from "/assets/logos/Fiery_Color_021 copy 2.png";
 // import logo3 from "/assets/logos/Fiery_Color_010_ok copy 2.png"
+import video1 from "/assets/video/WhatsApp Vid.mp4";
 
 export const BOOKS = [
      {
@@ -122,6 +123,9 @@ export const BOOKS = [
             id: 13,
             imgFile: logoA13
           },
+          {id:14,
+            imgFile: video1
+          }
         ],
         available: true,
       },
@@ -298,10 +302,13 @@ export const BOOKS = [
         logo: logoA7,
         images: [
           {
-            id: 1,
-            imgFile: logoA7
-          }
+            
+             id: 1,
+             imgFile: video1
+          },
+          {id:14, imgFile: video1}
         ],
+        video: video1, // Added video property
         available: true,
       },
 ]
