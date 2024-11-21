@@ -27,7 +27,7 @@ const containerStyles = {
 export default function Book() {
   const { book } = useLoaderData();
   let pictures = book.images;
-  let videos = book.media;
+  let videos = book.video;
 
   //   console.log(pictures)
   //   let picUrl = "/assets/coverImages/IMG_9389 copy.jpg"
@@ -51,6 +51,12 @@ export default function Book() {
           <div style={containerStyles} >
             <ImageSlider pictures={pictures} videos={videos} />
           </div>
+          {videos && (
+  <div className="video-container">
+    <video src={videos} controls className="w-full" />
+  </div>
+)}
+
         </div>
         {/* <img src={picUrl} /> */}
         <div >
