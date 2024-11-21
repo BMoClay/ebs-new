@@ -23,3 +23,7 @@ export async function getInSituImages() {
     let inSituImages = INSITUIMAGES
     return inSituImages
 }
+export async function getVideos() {
+    let video = VIDEO_DATA;
+    return video;
+   }
