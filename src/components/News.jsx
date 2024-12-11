@@ -1,6 +1,10 @@
-import React from "react";
+// import React from "react";
 import dog from "/assets/inSituImages/IMG_9269 copy.jpeg"
 import sarnlogo from "/assets/logosBig/unnamed.jpg"
+import logo2 from "/assets/logos/Fiery_Color_021 5.png";
+import fpLogo from "/assets/logos/unnamed-1.jpg";
+import lawsMatterImg from "/assets/coverImages/unnamed-3.jpg"
+import samImg from "/assets/coverImages/unnamed-2.jpg"
 // import news from "./components/news.css"
 
 function News ({ closeModal }) {
@@ -18,6 +22,114 @@ function News ({ closeModal }) {
                     
                     {/* <button onClick={() => closeModal(false)}>X Close</button> */}
                     {/* <button className="absolute right-2" onClick={handleClose}>x</button> */}
+                    <div className="title">
+                        <p>
+                        Booklaunch 
+                        </p>
+                    </div>
+                    <div className="text-xs">
+                        <p>
+                        Isabelle Cornaro & Sam Pulitzer, published by ebs, December 11, 5–7 pm
+                        </p>
+                        <br />
+                       <br />
+                       <br />
+                    </div>
+                    <div className="flex justify-center">
+                        <div className="max-w-48">
+                            <img src={fpLogo}/>
+                        </div>
+                    </div>
+                    <br />
+                    <div className="flex justify-center">
+                        <div className="max-w-16">
+                            <img src={logo2}/>
+                        </div>
+                    </div>
+                    <br />
+                    <br />
+                    <div className="flex justify-center">
+                        <div className="max-w-3xl">
+                            <img src={dog}/>
+                        </div>
+                    </div>
+                    <div className="text-center text-base">
+                        <br />
+                       
+                        <p><b>Booklaunch<br />
+                           Isabelle Cornaro, <i>Laws, Matter</i> <br /> 
+                          Sam Pulitzer, <i>No</i> <br />
+                            published by <u><a href="https://editionsbierisusanne-ebs.ch/">e.bs</a></u><br /> <br />
+                          Wednesday, December 11, 2024<br />
+                            Galerie Francesca Pia
+                        </b></p>
+                        <br />
+                        <p></p>
+                    </div>
+                    <div className="flex justify-center">
+                        <div className="max-w-3xl">
+                            <img src={lawsMatterImg}/>
+                        </div>
+                    </div>
+                    <div className="text-center text-sm">
+                        <br />
+                        <p><b>
+                        Isabelle Cornaro <br />
+                        <i>Laws, Matter</i> <br /> <br />
+                        24 x 30 cm, 44 pages, staplebound <br />
+                        First Edition, 220 copies <br />
+                        Printed by La Tipografica Bevagna, Italy <br />
+                        Published on occasion of the exhibition <i>Mother, Laws, Matter</i> <br />
+                        at Fondazione Giuliani, Rome, 2024 <br />
+                        CHF 30.- <br></br> <br />
+                        Special Edition of 20 <br />
+                        with an original drawing by Isabelle Cornaro <br />
+                        signed and numbered <br />
+                        CHF 450.- <br /><br />
+                        <u><a href="https://editionsbierisusanne-ebs.ch/books/3">Interview with Isabelle Cornaro</a></u>
+                        </b>
+                        </p>
+                    </div>
+                    <br />
+                    <div className="flex justify-center">
+                        <div className="max-w-3xl">
+                            <img src={samImg}/>
+                        </div>
+                    </div>
+                    <div className="text-center text-sm">
+                        <br />
+                        <p><b>
+                        Sam Pulitzer<br />
+                        <i>No</i> <br /> <br />
+                        13 x 16 cm, 20 pages, spiral bound in metal, three-fold cover<br />
+                        First Edition, 200 copies <br />
+                        Printed by La Tipografica Bevagna, Italy <br />
+                        CHF 30.- <br></br> <br />
+                        <u><a href="https://editionsbierisusanne-ebs.ch/books/4">Interview with Sam Pulitzer</a></u>
+                        </b>
+                        </p>
+                    </div>
+                    <br />
+                    <div className="text-sm">
+                        <br />
+                        <p className=""><b>
+                        <u><a href="https://editionsbierisusanne-ebs.ch">e.bs</a></u><br />
+                        Susanne Bieri<br />
+                       Dr. phil. art historian<br />
+                       Artists' book publisher <br />
+                        <u><a href="https://editionsbierisusanne-ebs.ch">editionsbierisusanne-ebs.ch</a></u><br />
+                        <u><a href="https://www.instagram.com/edededebs/">Instagram</a></u><br /> <br />
+                        Galerie Francesca Pia <br />
+                        Limmatstrasse 270 <br />
+                        CH-8005 Zürich <br />
+                        Tuesday-Friday, 11-18 <br />
+                        Saturday 11-17 <br />
+                        <u><a href="https://www.francescapia.com/gallery">francescapia.com</a></u><br />
+                        <u><a href="https://www.instagram.com/galerie_francescapia/">Instagram</a></u><br />
+                        </b>
+                        </p>
+                        <br /><br /><br /><br /><br />
+                    </div>
                     <div className="title">
                         <p>
                             Invitation 
