@@ -1,4 +1,4 @@
-import blankLogo from "/assets/logos/blank.png";
+// import blankLogo from "/assets/logos/blank.png";
 // import logo2 from "/assets/logosBig/Fiery_Color_021.png";
 import logo2 from "/assets/logos/Fiery_Color_021 5.png";
 import logoA2 from "/assets/logosBookPage/Fiery_Color_010_ok copy 3.png";
@@ -44,6 +44,7 @@ import isaCorWOP20 from "/assets/coverImages/20 copy 2.jpg";
 import dog from "/assets/inSituImages/IMG_9270 copy 2.jpeg"
 import logo1 from "/assets/logos/Fiery_Color_021 copy 2.png";
 // import logo3 from "/assets/logos/Fiery_Color_010_ok copy 2.png"
+import video1 from "/assets/WhatsApp Vid.mp4"
 
 export const BOOKS = [
      {
@@ -299,7 +300,7 @@ export const BOOKS = [
         images: [
           {
             id: 1,
-            imgFile: logoA7
+            imgFile: video1
           }
         ],
         available: true,
