@@ -16,7 +16,7 @@ const NewsContainer = () => {
       };
 
     return (
-        <div className="pl-8 bg-white bg-opacity-95">
+        <div className="pl-8 bg-white ">
             <div className="NewsContainer">
                 {!openModal && (
                     <button onClick={handleButtonClick}>News</button>

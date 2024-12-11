@@ -15,7 +15,7 @@ function News ({ closeModal }) {
 
     return (
         <> 
-        <div className="pl-4 ">
+        <div className=" ">
             <div className="modalBackground">
             <button className="absolute right-2" onClick={handleClose}>x</button>
                 <div className="py-8 pr-2">
@@ -128,8 +128,12 @@ function News ({ closeModal }) {
                         <u><a href="https://www.instagram.com/galerie_francescapia/">Instagram</a></u><br />
                         </b>
                         </p>
-                        <br /><br /><br /><br /><br />
+                        <br /><br /><br /><br />
                     </div>
+                    <hr />
+                    Past News
+                    <hr />
+                    <br />
                     <div className="title">
                         <p>
                             Invitation 
