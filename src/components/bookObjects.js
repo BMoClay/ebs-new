@@ -46,7 +46,7 @@ import dog from "/assets/inSituImages/IMG_9270 copy 2.jpeg"
 import logo1 from "/assets/logos/Fiery_Color_021 copy 2.png";
 // import logo3 from "/assets/logos/Fiery_Color_010_ok copy 2.png"
 import video1 from "/assets/video/WhatsApp Vid.mp4";
-import video2 from "/assets/video/video2.mov";
+import video2 from "/assets/video/video2a.mov";
 import poz1 from "/assets/coverImages/IMG_1444.jpg"; 
 import poz2 from "/assets/coverImages/IMG_1492.jpg";
 
