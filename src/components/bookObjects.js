@@ -306,7 +306,6 @@ export const BOOKS = [
         logo: logoA7,
         images: [
           {
-            
              id: 1,
              imgFile: video1
           },
