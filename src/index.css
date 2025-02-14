@@ -16,3 +16,8 @@ body {
   color: green,
 }
 
+
+video {
+  width: auto;
+  height: 50vh;
+}

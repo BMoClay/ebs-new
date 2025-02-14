@@ -324,13 +324,51 @@ export const BOOKS = [
         pages: 124,
         size: "10.5 x 10.5 cm",
         binding: "Staplebound",
-        price: "EU 30",
+        price: "EU 30.-",
         edition: "First",
         editionAmount: 120,
         attribution:  "484, Normal Edition",          
-        notes: "The artist's book '484' is printed recto verso monochrome with the Pantone color 484 in offset, all 124 pages on the simplest paper of the type 'usomano gr. 80': there is no cover, no title, no text, there is no front or back - it is a uniform block that, in its concreteness, draws on Vaclav Pozarek's sculptural realizations and plays with his preferred color choices. The imprint is on a white card measuring 10.5x10.5",
+        notes: "The artist's book '484' is printed recto verso monochrome with the Pantone color 484 in offset, all124 pages on the simplest paper of the type 'usomano gr. 80': there is no cover, no title, no text,there is no front or back - it is a uniform block that, in its concreteness, draws on Vaclav Pozarek'ssculptural realizations and plays with his preferred color choices. The imprint is on a white cardmeasuring 10.5x10.5 cm and is inserted in the middle of the book.", 
+        notes3: "First Edition: 120 copies, of which 12 copies signed and numbered 1/12 - 12/12 as special editions with original interventions. Realized by La Tipografica Bevagna. Bern/Bevagna 2025.",
+
+        websiteUrl: "",
+        website: "",
+        logo: logoA11,
+        images: [
+          {
+            
+             id: 1,
+             imgFile: video2,
+          },
+          {
+            id: 2,
+            imgFile: poz1,
+          },
+          {
+            id: 3,
+            imgFile: poz2
+          },
+          {id:14, imgFile: video2}
+        ],
+        video: video2, // Added video property
+        available: true,
+      },
+      {
+        id: 6,
+        bookTitle: "484",
+        headerArtist: "Vaclav Pozarek",
+        artist: "Vaclav Pozarek",
+        urlText: "vaclav-pozarek",
+        year: "2025*",
+        pages: 124,
+        size: "10.5 x 10.5 cm",
+        binding: "Staplebound",
+        price: "EU 450.-",
+        edition: "484 Special edition 1/12 -12/12, signed and numbered.",
+        editionAmount: 120,
+        attribution:  "484 Special edition 1/12 -12/12, signed and numbered.",       
+        notes: "Vaclav Pozarek individually reworked the artist's book '484' with silver felt-tip pen colour on the middle double page. It can be read: ‘484’!",
         notes3: "Edition: 484 Special edition 1/12 -12/12, signed and numbered. Vaclav Pozarek individually reworked the artist's book '484' with silver felt-tip pen colour on the middle double page. It can be read: ‘484’!",
-        notes4: "Special Edition: Price: EU 450",
         websiteUrl: "",
         website: "",
         logo: logoA11,

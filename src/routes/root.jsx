@@ -47,7 +47,7 @@ export default function Root() {
           <Link to={`books/${book.id}`} key={book.id} className="">
             {/* <div className="flex pb-[0.5px] items-baseline"> */}
             <div className="flex items-baseline">
-              <img src={book.logo} className="w-10"></img>
+              <img src={book.logo} className="w-10 h-9"></img>
               <h1 className="px-0.5 text-xs">{book.year}</h1>
             </div>
           </Link>
@@ -60,7 +60,7 @@ export default function Root() {
         </Link> */}
        
         <div className="flex items-baseline ">
-          <img src={logo3} alt="" className="w-10 py-0.5" />
+          <img src={logo3} alt="" className="w-10 py-0.5 " />
           <h1 className="px-0.5 text-xs"></h1>
         </div>
         <div className="flex items-baseline ">
