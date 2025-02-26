@@ -47,13 +47,14 @@ export default function Book() {
           {/* <iframe src={slides[3].file} autoPlay className="w-full object-cover"/> */}
           {/* <video src={slides[3].file} autoPlay className="w-full object-cover" /> */}
         </div>
-        <div className="bg-neutral-100 ">
+        <div className="bg-neutral-100 pt-2">
           <div style={containerStyles} >
-            <ImageSlider pictures={pictures} videos={videos} />
+          {pictures && <ImageSlider pictures={pictures} />}
+            {/* <ImageSlider pictures={pictures} videos={videos} /> */}
           </div>
           {videos && (
   <div className="video-container">
-    <video src={videos} controls className="w-full" />
+    <video src={videos} controls className="w-full pt-2" />
   </div>
 )}
 
