@@ -52,11 +52,7 @@ export default function Book() {
           {pictures && <ImageSlider pictures={pictures} />}
             {/* <ImageSlider pictures={pictures} videos={videos} /> */}
           </div>
-          {videos && (
-  <div className="video-container">
-    <video src={videos} controls className="w-full pt-2" />
-  </div>
-)}
+       
 
         </div>
         {/* <img src={picUrl} /> */}
@@ -80,6 +76,11 @@ export default function Book() {
               <p className="py-1 pl-4">{book.notes8}</p>
              <br />
               <p>{book.bio}</p>
+              {videos && (
+  <div className="video-container">
+    <video src={videos} controls className="w-full pt-2" />
+  </div>
+)}
             </div>
             <div className="sm:col-span-4 text-xs px-4 ">
               <div className="grid grid-cols-6 sm:col-span-2 items-baseline py-1">
