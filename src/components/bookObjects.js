@@ -13,6 +13,7 @@ import logoA10 from "/assets/logosBookPage/Fiery_Color_018 copy 3.png";
 import logoA11 from "/assets/logosBookPage/Fiery_Color_019 copy 3.png";
 import logoA12 from "/assets/logosBookPage/Fiery_Color_020 copy 3.png";
 import logoA13 from "/assets/logosBookPage/Fiery_Color_008 copy 3.png";
+// Fiery_Color_019 copy 3
 
 import coverImage1 from "/assets/coverImages/IMG_9389 copy.jpg";
 import coverImage2 from "/assets/coverImages/IMG_9393 copy.jpg";
@@ -45,6 +46,9 @@ import dog from "/assets/inSituImages/IMG_9270 copy 2.jpeg"
 import logo1 from "/assets/logos/Fiery_Color_021 copy 2.png";
 // import logo3 from "/assets/logos/Fiery_Color_010_ok copy 2.png"
 import video1 from "/assets/video/WhatsApp Vid.mp4";
+import video2 from "/assets/video/video2.mov";
+import poz1 from "/assets/coverImages/IMG_1444.jpg"; 
+import poz2 from "/assets/coverImages/IMG_1492.jpg";
 
 export const BOOKS = [
      {
@@ -302,7 +306,6 @@ export const BOOKS = [
         logo: logoA7,
         images: [
           {
-            
              id: 1,
              imgFile: video1
           },
@@ -311,5 +314,82 @@ export const BOOKS = [
         video: video1, // Added video property
         available: true,
       },
+      {
+        id: 5,
+        bookTitle: "484",
+        headerArtist: "Vaclav Pozarek",
+        artist: "Vaclav Pozarek",
+        urlText: "vaclav-pozarek",
+        year: "2025",
+        pages: 124,
+        size: "10.5 x 10.5 cm",
+        binding: "Staplebound",
+        price: "EU 30.-",
+        edition: "First",
+        editionAmount: 120,
+        attribution:  "484, Normal Edition",          
+        notes: "The artist's book '484' is printed recto verso monochrome with the Pantone color 484 in offset, all124 pages on the simplest paper of the type 'usomano gr. 80': there is no cover, no title, no text,there is no front or back - it is a uniform block that, in its concreteness, draws on Vaclav Pozarek'ssculptural realizations and plays with his preferred color choices. The imprint is on a white cardmeasuring 10.5x10.5 cm and is inserted in the middle of the book.", 
+        notes3: "First Edition: 120 copies, of which 12 copies signed and numbered 1/12 - 12/12 as special editions with original interventions. Realized by La Tipografica Bevagna. Bern/Bevagna 2025.",
+
+        websiteUrl: "",
+        website: "",
+        logo: logoA11,
+        images: [
+          // {
+            
+          //    id: 1,
+          //    imgFile: video2,
+          // },
+          {
+            id: 1,
+            imgFile: poz1,
+          },
+          {
+            id: 2,
+            imgFile: poz2
+          },
+          {id:14, imgFile: video2}
+        ],
+        video: video2, // Added video property
+        available: true,
+      },
+      // {
+      //   id: 6,
+      //   bookTitle: "484",
+      //   headerArtist: "Vaclav Pozarek",
+      //   artist: "Vaclav Pozarek",
+      //   urlText: "vaclav-pozarek",
+      //   year: "2025*",
+      //   pages: 124,
+      //   size: "10.5 x 10.5 cm",
+      //   binding: "Staplebound",
+      //   price: "EU 450.-",
+      //   edition: "484 Special edition 1/12 -12/12, signed and numbered.",
+      //   editionAmount: 120,
+      //   attribution:  "484 Special edition 1/12 -12/12, signed and numbered.",       
+      //   notes: "Vaclav Pozarek individually reworked the artist's book '484' with silver felt-tip pen colour on the middle double page. It can be read: ‘484’!",
+      //   notes3: "Edition: 484 Special edition 1/12 -12/12, signed and numbered. Vaclav Pozarek individually reworked the artist's book '484' with silver felt-tip pen colour on the middle double page. It can be read: ‘484’!",
+      //   websiteUrl: "",
+      //   website: "",
+      //   logo: logoA11,
+      //   images: [
+      //     // {
+            
+      //     //    id: 1,
+      //     //    imgFile: video2,
+      //     // },
+      //     {
+      //       id: 1,
+      //       imgFile: poz1,
+      //     },
+      //     {
+      //       id: 2,
+      //       imgFile: poz2
+      //     },
+      //     {id:14, imgFile: video2}
+      //   ],
+      //   video: video2, // Added video property
+      //   available: true,
+      // },
 ]
 

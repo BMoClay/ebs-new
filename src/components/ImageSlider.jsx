@@ -47,7 +47,10 @@ const sliderStyles = {
 //   fontSize: "20px",
 // };
 
-const ImageSlider = ({ pictures, videos }) => {
+
+// const ImageSlider = ({ pictures, videos }) => {
+const ImageSlider = ({ pictures }) => {
+  if (!pictures || pictures.length === 0) return null;
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goToPrevious = () => {

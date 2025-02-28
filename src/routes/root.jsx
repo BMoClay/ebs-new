@@ -15,6 +15,7 @@ import logo9 from "/assets/logos/Fiery_Color_017 copy 2.png";
 import logo10 from "/assets/logos/Fiery_Color_018 copy 2.png";
 import logo11 from "/assets/logos/Fiery_Color_019 copy 2.png";
 import logo12 from "/assets/logos/Fiery_Color_020 copy 2.png";
+import logo13 from "/assets/logos/Fiery_Color_019 copy 2.png";
 
 import dodecahedron from "/assets/small poly.png";
 import inSitu1 from "/assets/inSituImages/IMG_9269 copy.jpeg"
@@ -46,7 +47,7 @@ export default function Root() {
           <Link to={`books/${book.id}`} key={book.id} className="">
             {/* <div className="flex pb-[0.5px] items-baseline"> */}
             <div className="flex items-baseline">
-              <img src={book.logo} className="w-10"></img>
+              <img src={book.logo} className="w-10 h-9"></img>
               <h1 className="px-0.5 text-xs">{book.year}</h1>
             </div>
           </Link>
@@ -57,12 +58,9 @@ export default function Root() {
             <h1 className="px-0.5 text-xs">2024 *</h1>
           </div>
         </Link> */}
-        <div className="flex pb-[0.5px] items-baseline  ">
-          <img src={logo2} alt="" className="w-10 py-0.5" />
-          <h1 className="px-0.5 text-xs"></h1>
-        </div>
+       
         <div className="flex items-baseline ">
-          <img src={logo3} alt="" className="w-10 py-0.5" />
+          <img src={logo3} alt="" className="w-10 py-0.5 " />
           <h1 className="px-0.5 text-xs"></h1>
         </div>
         <div className="flex items-baseline ">
@@ -93,8 +91,8 @@ export default function Root() {
           <img src={logo10} alt="" className="w-10 py-0.5" />
           <h1 className="px-0.5 text-xs"></h1>
         </div>
-        <div className="flex items-baseline ">
-          <img src={logo11} alt="" className="w-10 py-0.5" />
+        <div className="flex pb-[0.5px] items-baseline  ">
+          <img src={logo2} alt="" className="w-10 py-0.5" />
           <h1 className="px-0.5 text-xs"></h1>
         </div>
         <div className="flex items-baseline ">
