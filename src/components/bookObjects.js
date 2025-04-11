@@ -355,7 +355,7 @@ export const BOOKS = [
       },
       {
         id: 6,
-        bookTitle: "484",
+        bookTitle: "484*",
         headerArtist: "Vaclav Pozarek",
         artist: "Vaclav Pozarek",
         urlText: "vaclav-pozarek",
@@ -364,12 +364,12 @@ export const BOOKS = [
         size: "30 x 20 cm",
         binding: "Staplebound",
         price: "CHF 450",
-        edition: "First",
+        edition: "Special",
         editionAmount: 12,
-        attribution:  "484, Normal Edition",          
-        notes: "The artist's book '484' is printed recto verso monochrome with the Pantone color 484 in offset, all 124 pages on the simplest paper of the type 'usomano gr. 80': there is no cover, no title, no text,there is no front or back - it is a uniform block that, in its concreteness, draws on Vaclav Pozarek'ssculptural realizations and plays with his preferred color choices. The imprint is on a white cardmeasuring 10.5x10.5 cm and is inserted in the middle of the book.It is signed and numbered 1/12 - 12/12 by the artist for the special
-edition.", 
+        attribution:  "484, Special Edition",          
+        notes: "The artist's book '484' is printed recto verso monochrome with the Pantone color 484 in offset, all 124 pages on the simplest paper of the type 'usomano gr. 80': there is no cover, no title, no text,there is no front or back - it is a uniform block that, in its concreteness, draws on Vaclav Pozarek'ssculptural realizations and plays with his preferred color choices. The imprint is on a white cardmeasuring 10.5x10.5 cm and is inserted in the middle of the book.It is signed and numbered 1/12 - 12/12 by the artist for the special edition.", 
         notes3: "First Edition: 120 copies, of which 12 copies signed and numbered 1/12 - 12/12 as special editions with original interventions. Realized by La Tipografica Bevagna. Bern/Bevagna 2025.",
+        notes4:"For the special edition, Vaclav Pozarek created two abstract number templates, which he followed with a silver felt-tip pen on the left-hand page of the centre spread of the booklet, mirroring them on the next page to read ‘484’. A method loosely based on the famous Rorschach test.",
 
         websiteUrl: "",
         website: "",
