@@ -49,7 +49,10 @@ import video1 from "/assets/video/WhatsApp Vid.mp4";
 import video2 from "/assets/video/video2.mov";
 import poz1 from "/assets/coverImages/IMG_1444.jpg"; 
 import poz2 from "/assets/coverImages/IMG_1492.jpg";
+import a484 from "/assets/coverImages/IMG_1972.jpg";
+import b484 from "/assets/coverImages/IMG_1973.jpg";
 
+import c484 from "/assets/coverImages/IMG_1976.jpg";
 export const BOOKS = [
      {
         id: 1,
@@ -382,15 +385,19 @@ export const BOOKS = [
           // },
           {
             id: 1,
-            imgFile: poz1,
+            imgFile: a484,
           },
           {
             id: 2,
-            imgFile: poz2
+            imgFile: b484
           },
-          {id:14, imgFile: video2}
+          {
+            id: 2,
+            imgFile: c484
+          }
+          // {id:14, imgFile: video2}
         ],
-        video: video2, // Added video property
+        // video: video2, // Added video property
         available: true,
       },
       // {
