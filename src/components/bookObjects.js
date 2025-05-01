@@ -49,7 +49,10 @@ import video1 from "/assets/video/WhatsApp Vid.mp4";
 import video2 from "/assets/video/video2.mov";
 import poz1 from "/assets/coverImages/IMG_1444.jpg"; 
 import poz2 from "/assets/coverImages/IMG_1492.jpg";
+import a484 from "/assets/coverImages/IMG_1972.jpg";
+import b484 from "/assets/coverImages/IMG_1973.jpg";
 
+import c484 from "/assets/coverImages/IMG_1976.jpg";
 export const BOOKS = [
      {
         id: 1,
@@ -328,7 +331,7 @@ export const BOOKS = [
         edition: "First",
         editionAmount: 120,
         attribution:  "484, Normal Edition",          
-        notes: "The artist's book '484' is printed recto verso monochrome with the Pantone color 484 in offset, all124 pages on the simplest paper of the type 'usomano gr. 80': there is no cover, no title, no text,there is no front or back - it is a uniform block that, in its concreteness, draws on Vaclav Pozarek'ssculptural realizations and plays with his preferred color choices. The imprint is on a white cardmeasuring 10.5x10.5 cm and is inserted in the middle of the book.", 
+        notes: "The artist's book '484' is printed recto verso monochrome with the Pantone color 484 in offset, all124 pages on the simplest paper of the type 'usomano gr. 80': there is no cover, no title, no text,there is no front or back - it is a uniform block that, in its concreteness, draws on Vaclav Pozarek'ssculptural realizations and plays with his preferred color choices.",
         notes3: "First Edition: 120 copies, of which 12 copies signed and numbered 1/12 - 12/12 as special editions with original interventions. Realized by La Tipografica Bevagna. Bern/Bevagna 2025.",
 
         websiteUrl: "",
@@ -351,6 +354,50 @@ export const BOOKS = [
           {id:14, imgFile: video2}
         ],
         video: video2, // Added video property
+        available: true,
+      },
+      {
+        id: 6,
+        bookTitle: "484 Special Edition",
+        headerArtist: "Vaclav Pozarek",
+        artist: "Vaclav Pozarek",
+        urlText: "vaclav-pozarek",
+        year: "2025*",
+        pages: 124,
+        size: "30 x 20 cm",
+        binding: "Staplebound",
+        price: "CHF 450",
+        edition: "Special",
+        editionAmount: 12,
+        attribution:  "484, Special Edition",          
+        notes: "First Edition: 120 copies, of which 12 copies signed and numbered 1/12 - 12/12 as special editions with original interventions. Realized by La Tipografica Bevagna. Bern/Bevagna 2025.",
+        notes3: "The artist's book '484' is printed recto verso monochrome with the Pantone color 484 in offset, all 124 pages on the simplest paper of the type 'usomano gr. 80': there is no cover, no title, no text,there is no front or back - it is a uniform block that, in its concreteness, draws on Vaclav Pozarek'ssculptural realizations and plays with his preferred color choices.",
+        notes5:"For the special edition, Vaclav Pozarek created two abstract number templates, which he followed with a silver felt-tip pen on the left-hand page of the centre spread of the booklet, mirroring them on the next page to read ‘484’. A method loosely based on the famous Rorschach test.",
+        notes7:"The imprint is on a white cardmeasuring 10.5x10.5 cm and is inserted in the middle of the book.It is signed and numbered 1/12 - 12/12 by the artist for the special edition.", 
+        websiteUrl: "",
+        website: "",
+        logo: logoA11,
+        images: [
+          // {
+            
+          //    id: 1,
+          //    imgFile: video2,
+          // },
+          {
+            id: 1,
+            imgFile: a484,
+          },
+          {
+            id: 2,
+            imgFile: b484
+          },
+          {
+            id: 2,
+            imgFile: c484
+          }
+          // {id:14, imgFile: video2}
+        ],
+        // video: video2, // Added video property
         available: true,
       },
       // {
