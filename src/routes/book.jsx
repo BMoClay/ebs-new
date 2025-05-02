@@ -16,10 +16,10 @@ export async function loader({ params }) {
 }
 
 const containerStyles = {
-  // width: "100%",
+   width: "100%",
   // height: "100vh",
   // margin: "0 auto",
-  width: "500px",
+  // width: "500px",
   height: "auto",
   margin: "0 auto",
 };
@@ -47,7 +47,7 @@ export default function Book() {
           {/* <iframe src={slides[3].file} autoPlay className="w-full object-cover"/> */}
           {/* <video src={slides[3].file} autoPlay className="w-full object-cover" /> */}
         </div>
-        <div className="bg-neutral-100 pt-2">
+        <div className="bg-neutral-100 pt-2 px-4">
           <div style={containerStyles} >
           {pictures && <ImageSlider pictures={pictures} />}
             {/* <ImageSlider pictures={pictures} videos={videos} /> */}
@@ -78,7 +78,7 @@ export default function Book() {
               <p>{book.bio}</p>
               {videos && (
   <div className="video-container">
-    <video src={videos} controls className="w-full pt-2" />
+    <video src={videos} controls className="w-full pt-2 px-4" />
   </div>
 )}
             </div>
