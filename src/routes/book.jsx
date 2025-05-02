@@ -16,10 +16,10 @@ export async function loader({ params }) {
 }
 
 const containerStyles = {
-  // width: "100%",
+   width: "100%",
   // height: "100vh",
   // margin: "0 auto",
-  width: "500px",
+  // width: "500px",
   height: "auto",
   margin: "0 auto",
 };
