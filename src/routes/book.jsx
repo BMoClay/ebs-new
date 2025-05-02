@@ -78,7 +78,7 @@ export default function Book() {
               <p>{book.bio}</p>
               {videos && (
   <div className="video-container">
-    <video src={videos} controls className="w-full pt-2" />
+    <video src={videos} controls className="w-full pt-2 px-4" />
   </div>
 )}
             </div>
