@@ -22,6 +22,70 @@ function News ({ closeModal }) {
                     
                     {/* <button onClick={() => closeModal(false)}>X Close</button> */}
                     {/* <button className="absolute right-2" onClick={handleClose}>x</button> */}
+                  <div className="flex justify-center">
+  <div className="max-w-3xl">
+    {/* <img src="788f1903-2f76-4ef5-bb9c-a63689a5d7c6.png" /> */}
+  </div>
+</div>
+<div className="text-center text-base">
+  <br />
+
+  <p>
+    <b>
+      <br />
+      ebs & phono/graph, <i>ECHO</i> <br />
+      published by <u><a href="https://editionsbierisusanne-ebs.ch/">e.bs</a></u> <br />
+      <br />
+      Produced between Japan and Bevagna, Italy <br />
+      Supported by DNP Foundation for Cultural Promotion, <br />
+      Ichigaya Letterpress Factory, Shinkaichi Community Center for Arts and Interaction <br />
+      Organizational support: Chikako Tatsuuma
+    </b>
+  </p>
+
+  <br />
+
+  <p>
+    <i>ECHO</i> is an artist’s book by ebs and phono/graph, partly handcrafted and assembled
+    in a ring binder. Combining typography, graphics, and diverse printing techniques, it
+    explores how meaning unfolds on the page. Reading becomes an active, sensory experience —
+    expanding the intersections of sound, letters, and graphics beyond traditional media.
+  </p>
+
+  <br />
+
+  <p>
+    phono/graph is a collective founded in Osaka in 2011. Through experimental, cross-media
+    work, it explores the interplay of sound, text, and graphics. Members: Fujimoto Yukio,
+    Kishimoto Rinko, Hayashi Aoi, Suzuki Hiroyoshi, Jo Kazuhiro, intext, Yagi Lyota,
+    Nicole Schmid, softpad.
+  </p> <br />
+  <p>
+    <a href="http://www.phonograph.jp/artists.htm" target="_blank" className="underline">
+      phono/graph | artists
+    </a>
+  </p> <br />
+  <p>
+    <i>ECHO</i> is an artist’s book by ebs and phono/graph, partly handcrafted and assembled
+    in a ring binder. Combining typography, graphics, and diverse printing techniques, it
+    explores how meaning unfolds on the page. Reading becomes an active, sensory experience —
+    expanding the intersections of sound, letters, and graphics beyond traditional media.
+  </p>
+
+  <br />
+
+  <p>
+    Founded in Osaka in 2011, phono/graph is a collective working experimentally across sound,
+    text, and image. Members: Fujimoto Yukio, Kishimoto Rinko, Hayashi Aoi, Suzuki Hiroyoshi,
+    Jo Kazuhiro, intext, Yagi Lyota, Nicole Schmid, softpad.
+  </p>
+
+  <br />
+</div>
+  <br />
+
+
+  
                     <div className="title">
                         <p>
                         Booklaunch 
