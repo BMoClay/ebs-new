@@ -5,8 +5,8 @@ import logo2 from "/assets/logos/Fiery_Color_021 5.png";
 import fpLogo from "/assets/logos/unnamed-1.jpg";
 import lawsMatterImg from "/assets/coverImages/unnamed-3.jpg"
 import samImg from "/assets/coverImages/unnamed-2.jpg"
-import echo1 from "/assets/news/echo1.pdf"
-import PdfViewer from "../components/Pdf-view"
+import echologo from "/assets/news/echo2.png"
+// import PdfViewer from "../components/Pdf-view"
 // import news from "./components/news.css"
 
 function News ({ closeModal }) {
@@ -30,10 +30,14 @@ function News ({ closeModal }) {
   </div>
 </div>
 
-<PdfViewer pdfUrl={echo1} />
+{/* <PdfViewer pdfUrl={echo1} /> */}
 
-{/* <div className="text-center text-base">
+ <div className="text-left text-base">
   <br />
+  <div className="flex justify-center">
+                        <div className="max-w-48"><img src={echologo} /></div>
+
+</div>
 
   <p>
     <b>
@@ -88,8 +92,8 @@ function News ({ closeModal }) {
   <br />
 </div>
   <br />
- */}
-
+ 
+<br />
   
                     <div className="title">
                         <p>
