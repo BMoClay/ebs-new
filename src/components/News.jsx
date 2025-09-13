@@ -41,8 +41,15 @@ function News ({ closeModal }) {
                         <div className="max-w-80"><img src={echologo} /></div>
                       
 </div>
- <div className="flex justify-center">   <div className="max-w-80"><img src={ebbslogo} /></div>
+ <div className="flex justify-center">   <div className="max-w-20"><img src={ebbslogo} /></div>
  </div>
+ <p>
+
+ Come and view the book ECHO by ebs-phono/graph <br />
+on 20.09.2025, 6 PM. <br />
+Location: ebs project space, via Santa Maria 7, IT-06031 Bevagna (PG).
+</p>
+
   <div className="flex justify-center">
  <div className="video-container">
     <video src={video1} controls className="w-full pt-2 px-4" />
