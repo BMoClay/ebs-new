@@ -92,22 +92,7 @@ Location: ebs project space, via Santa Maria 7, IT-06031 Bevagna (PG).
       phono/graph | artists
     </a>
   </p> <br />
-  <p>
-    <i>ECHO</i> is an artist’s book by ebs and phono/graph, partly handcrafted and assembled
-    in a ring binder. Combining typography, graphics, and diverse printing techniques, it
-    explores how meaning unfolds on the page. Reading becomes an active, sensory experience —
-    expanding the intersections of sound, letters, and graphics beyond traditional media.
-  </p>
 
-  <br />
-
-  <p>
-    Founded in Osaka in 2011, phono/graph is a collective working experimentally across sound,
-    text, and image. Members: Fujimoto Yukio, Kishimoto Rinko, Hayashi Aoi, Suzuki Hiroyoshi,
-    Jo Kazuhiro, intext, Yagi Lyota, Nicole Schmid, softpad.
-  </p>
-
-  <br />
 </div>
   <br />
  
