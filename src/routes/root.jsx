@@ -43,22 +43,21 @@ export default function Root() {
       <div className="absolute right-2 px-2">
           <NewsContainer/>
       </div>
-        {books.map((book) => (
-          <Link to={`books/${book.id}`} key={book.id} className="">
-            {/* <div className="flex pb-[0.5px] items-baseline"> */}
-            <div className="flex items-baseline">
-              <img src={book.logo} className="w-10 h-9"></img>
-              <h1 className="px-0.5 text-xs">{book.year}</h1>
-            </div>
-          </Link>
-        ))}
-        {/* <Link to={`books/3}`} key={3} className=""> 
-          <div className="flex pb-[0.5px] items-baseline ">
-            <img src={logo1} alt="" className="w-10 py-0.5" />
-            <h1 className="px-0.5 text-xs">2024 *</h1>
+       {/* Book 1 - Vaclav Pozarek */}
+ 
+          <div className="flex items-baseline border-b-[2px]">
+                  <Link to={`books/1`} className=""> <img src={books[0].logo} className="w-10 h-9"></img>
+            <h1 className="px-0.5 text-xs">{books[0].year}</h1> </Link>
+           <Link to={`books/2`} className="">   <img src={books[1].logo} className="w-10 h-9"></img>
+            <h1 className="px-0.5 text-xs">{books[1].year}</h1>     </Link>
           </div>
-        </Link> */}
+    
+        
+        {/* Book 2 - Isabelle Cornaro */}
        
+       
+       
+
         <div className="flex items-baseline ">
           <img src={logo3} alt="" className="w-10 py-0.5 " />
           <h1 className="px-0.5 text-xs"></h1>

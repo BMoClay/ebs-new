@@ -5,6 +5,11 @@ import logo2 from "/assets/logos/Fiery_Color_021 5.png";
 import fpLogo from "/assets/logos/unnamed-1.jpg";
 import lawsMatterImg from "/assets/coverImages/unnamed-3.jpg"
 import samImg from "/assets/coverImages/unnamed-2.jpg"
+import echologo from "/assets/news/echo2.png"
+import ebbslogo from "/assets/news/echo3.png"
+import video1 from "/assets/news/echo4.mov"
+
+// import PdfViewer from "../components/Pdf-view"
 // import news from "./components/news.css"
 
 function News ({ closeModal }) {
@@ -22,6 +27,92 @@ function News ({ closeModal }) {
                     
                     {/* <button onClick={() => closeModal(false)}>X Close</button> */}
                     {/* <button className="absolute right-2" onClick={handleClose}>x</button> */}
+                  <div className="flex justify-center">
+  <div className="max-w-3xl">
+    {/* <img src="788f1903-2f76-4ef5-bb9c-a63689a5d7c6.png" /> */}
+  </div>
+</div>
+
+{/* <PdfViewer pdfUrl={echo1} /> */}
+
+ <div className="text-left text-base">
+  <br />
+  <div className="flex justify-center">
+                        <div className="max-w-80"><img src={echologo} /></div>
+                      
+</div>
+ <div className="flex justify-center">   <div className="max-w-20"><img src={ebbslogo} /></div>
+ </div>
+ <p>
+
+ Come and view the book ECHO by ebs-phono/graph <br />
+on 20.09.2025, 6 PM. <br />
+Location: ebs project space, via Santa Maria 7, IT-06031 Bevagna (PG).
+</p>
+
+  <div className="flex justify-center">
+ <div className="video-container">
+    <video src={video1} controls className="w-full pt-2 px-4" />
+  </div>
+  </div>
+
+  <p>
+    
+      <br />
+      ebs & phono/graph, <i>ECHO</i> <br />
+      published by <u><a href="https://editionsbierisusanne-ebs.ch/">e.bs</a></u> 
+      <br />
+    
+ 
+  </p>
+
+  <br />
+
+  <p>
+    <i>ECHO</i> is an artist’s book by ebs and phono/graph, partly handcrafted and assembled
+    in a ring binder. Combining typography, graphics, and diverse printing techniques, it
+    explores how meaning unfolds on the page. Reading becomes an active, sensory experience —
+    expanding the intersections of sound, letters, and graphics beyond traditional media.
+  </p>
+
+  <br />
+
+  <p>
+    phono/graph is a collective founded in Osaka in 2011. Through experimental, cross-media
+    work, it explores the interplay of sound, text, and graphics. Members: Fujimoto Yukio,
+    Kishimoto Rinko, Hayashi Aoi, Suzuki Hiroyoshi, Jo Kazuhiro, intext, Yagi Lyota,
+    Nicole Schmid, softpad.
+  </p> <br />
+    Produced between Japan and Bevagna, Italy <br />
+      Supported by DNP Foundation for Cultural Promotion, <br />
+      Ichigaya Letterpress Factory, Shinkaichi Community Center for Arts and Interaction <br />
+      Organizational support: Chikako Tatsuuma <br />
+  <p>
+    <a href="http://www.phonograph.jp/artists.htm" target="_blank" className="underline">
+      phono/graph | artists
+    </a>
+  </p> <br />
+  <p>
+    <i>ECHO</i> is an artist’s book by ebs and phono/graph, partly handcrafted and assembled
+    in a ring binder. Combining typography, graphics, and diverse printing techniques, it
+    explores how meaning unfolds on the page. Reading becomes an active, sensory experience —
+    expanding the intersections of sound, letters, and graphics beyond traditional media.
+  </p>
+
+  <br />
+
+  <p>
+    Founded in Osaka in 2011, phono/graph is a collective working experimentally across sound,
+    text, and image. Members: Fujimoto Yukio, Kishimoto Rinko, Hayashi Aoi, Suzuki Hiroyoshi,
+    Jo Kazuhiro, intext, Yagi Lyota, Nicole Schmid, softpad.
+  </p>
+
+  <br />
+</div>
+  <br />
+ 
+<br />
+  
                     <div className="title">
                         <p>
                         Booklaunch 
@@ -32,8 +123,8 @@ function News ({ closeModal }) {
                         Isabelle Cornaro & Sam Pulitzer, published by ebs, December 11, 5–7 pm
                         </p>
                         <br />
-                       <br />
-                       <br />
+                     
+                       
                     </div>
                     <div className="flex justify-center">
                         <div className="max-w-48">

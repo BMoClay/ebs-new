@@ -5,6 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
+import "./pdfjs-worker.js"; // Add this import
 import ErrorPage from "./error-page";
 import Book, { loader as bookLoader }from "./routes/book"
 // import Root, { loader as rootLoader } from "./routes/root";
