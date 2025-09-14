@@ -87,16 +87,17 @@ Location: ebs project space, via Santa Maria 7, IT-06031 Bevagna (PG).
       Supported by DNP Foundation for Cultural Promotion, <br />
       Ichigaya Letterpress Factory, Shinkaichi Community Center for Arts and Interaction <br />
       Organizational support: Chikako Tatsuuma <br />
-  <p className="border-b">
+  <p >
     <a href="http://www.phonograph.jp/artists.htm" target="_blank" className="underline">
       phono/graph | artists
     </a>
   </p> <br />
 
 </div>
-<div className="border-b"></div>
-<div className="border-b"></div>
   <br />
+<div className="border-b"></div>
+<div className="border-b"> Past News</div>
+
  
 <br />
   
@@ -209,7 +210,7 @@ Location: ebs project space, via Santa Maria 7, IT-06031 Bevagna (PG).
                         <br /><br /><br /><br />
                     </div>
                     <hr />
-                    Past News
+                     
                     <hr />
                     <br />
                     <div className="title">
