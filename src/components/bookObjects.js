@@ -410,7 +410,7 @@ export const BOOKS = [
         size: "21 × 24 cm (cover), pages in various formats",
         binding: "Ring Binder",
         price: "CHF 150",
-        edition: "First Edition, 80 copies",
+        edition: "First",
         editionAmount: 80,
         // attribution:  "484, Special Edition",          
         // notes: "First Edition: 120 copies, of which 12 copies signed and numbered 1/12 - 12/12 as special editions with original interventions. Realized by La Tipografica Bevagna. Bern/Bevagna 2025.",
@@ -420,26 +420,26 @@ export const BOOKS = [
         websiteUrl: "http://www.phonograph.jp/artists.htm",
         website: "phono/graph",
         logo: logoA2,
-        images: [
-          // {
+        // images: [
+        //   // {
             
-          //    id: 1,
-          //    imgFile: video2,
-          // },
-          {
-            id: 1,
-            imgFile: a484,
-          },
-          {
-            id: 2,
-            imgFile: b484
-          },
-          {
-            id: 2,
-            imgFile: c484
-          }
-          // {id:14, imgFile: video2}
-        ],
+        //   //    id: 1,
+        //   //    imgFile: video2,
+        //   // },
+        //   // {
+        //   //   id: 1,
+        //   //   imgFile: a484,
+        //   // },
+        //   // {
+        //   //   id: 2,
+        //   //   imgFile: b484
+        //   // },
+        //   // {
+        //   //   id: 2,
+        //   //   imgFile: c484
+        //   // }
+        //   // {id:14, imgFile: video2}
+        // ],
         // video: video2, // Added video property
         available: true,
       },

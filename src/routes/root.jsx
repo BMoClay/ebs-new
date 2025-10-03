@@ -45,11 +45,11 @@ export default function Root() {
       </div>
    
  <div className="flex items-baseline border-b-[2px] gap-4 "> 
-    <Link to={`books/5`} className="">   
+    <Link to={`books/7`} className="">   
      <img src={logo2} alt="" className="w-10 py-0.5" />
           <h1 className="px-0.5 text-xs"></h1>
       
-   <h1 className="px-0.5 text-xs">{books[4].year}</h1> 
+   <h1 className="px-0.5 text-xs">{books[6].year}</h1> 
     </Link>  </div> <span>   </span>
    <div className="flex items-baseline border-b-[2px] gap-4 "> 
     <Link to={`books/5`} className=""> 
