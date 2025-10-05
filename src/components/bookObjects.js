@@ -53,6 +53,29 @@ import a484 from "/assets/coverImages/IMG_1972.jpg";
 import b484 from "/assets/coverImages/IMG_1973.jpg";
 
 import c484 from "/assets/coverImages/IMG_1976.jpg";
+
+// New image imports
+import dsc01973 from "/assets/coverImages/DSC01973_s.jpg";
+import dsc01974 from "/assets/coverImages/DSC01974_s.jpg";
+import dsc01975 from "/assets/coverImages/DSC01975_s.jpg";
+import dsc01978 from "/assets/coverImages/DSC01978_s.jpg";
+import dsc01984 from "/assets/coverImages/DSC01984_s.jpg";
+import dsc01988 from "/assets/coverImages/DSC01988_s.jpg";
+import dsc01990 from "/assets/coverImages/DSC01990_s.jpg";
+import dsc01992 from "/assets/coverImages/DSC01992_s.jpg";
+import dsc02013 from "/assets/coverImages/DSC02013_s.jpg";
+import dsc02015 from "/assets/coverImages/DSC02015_s.jpg";
+import dsc02018 from "/assets/coverImages/DSC02018_s.jpg";
+import dsc02020 from "/assets/coverImages/DSC02020_s.jpg";
+import dsc02024 from "/assets/coverImages/DSC02024_s.jpg";
+import dsc02029 from "/assets/coverImages/DSC02029_s.jpg";
+import img7434 from "/assets/coverImages/IMG_7434_edited_s.jpg";
+import img7435 from "/assets/coverImages/IMG_7435_edited_s.jpg";
+import img7438 from "/assets/coverImages/IMG_7438_edited_s.jpg";
+import img7478 from "/assets/coverImages/IMG_7478_edited_s.jpg";
+import img7526 from "/assets/coverImages/IMG_7526_edited_s.jpg";
+import echo01 from "/assets/coverImages/___ECHO_01_s.jpg";
+
 export const BOOKS = [
      {
         id: 1,
@@ -420,7 +443,88 @@ export const BOOKS = [
         websiteUrl: "http://www.phonograph.jp/artists.htm",
         website: "phono/graph",
         logo: logoA2,
-        // images: [
+        images: [
+          {
+        id: 1,
+        imgFile: dsc01973
+      },
+      {
+        id: 2,
+        imgFile: dsc01974
+      },
+      {
+        id: 3,
+        imgFile: dsc01975
+      },
+      {
+        id: 4,
+        imgFile: dsc01978
+      },
+      {
+        id: 5,
+        imgFile: dsc01984
+      },
+      {
+        id: 6,
+        imgFile: dsc01988
+      },
+      {
+        id: 7,
+        imgFile: dsc01990
+      },
+      {
+        id: 8,
+        imgFile: dsc01992
+      },
+      {
+        id: 9,
+        imgFile: dsc02013
+      },
+      {
+        id: 10,
+        imgFile: dsc02015
+      },
+      {
+        id: 11,
+        imgFile: dsc02018
+      },
+      {
+        id: 12,
+        imgFile: dsc02020
+      },
+      {
+        id: 13,
+        imgFile: dsc02024
+      },
+      {
+        id: 14,
+        imgFile: dsc02029
+      },
+      {
+        id: 15,
+        imgFile: img7434
+      },
+      {
+        id: 16,
+        imgFile: img7435
+      },
+      {
+        id: 17,
+        imgFile: img7438
+      },
+      {
+        id: 18,
+        imgFile: img7478
+      },
+      {
+        id: 19,
+        imgFile: img7526
+      },
+      {
+        id: 20,
+        imgFile: echo01
+      }
+    ],
         //   // {
             
         //   //    id: 1,
@@ -478,7 +582,7 @@ export const BOOKS = [
       //     },
       //     {id:14, imgFile: video2}
       //   ],
-      //   video: video2, // Added video property
+//   video: video2, // Added video property
       //   available: true,
       // },
 ]
