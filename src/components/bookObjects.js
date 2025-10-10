@@ -433,7 +433,7 @@ export const BOOKS = [
         size: "21 × 24 cm (cover), pages in various formats",
         binding: "Ring Binder",
         price: "CHF 160",
-        edition: ": 80 copies of the Limited Edition, 19 copies of the Artist’s Proofs - 10 copies signed by phono/graph ",
+        edition: ": 80 copies of the Limited Edition, 19 copies of the Artist’s Proofs, 10 copies signed by phono/graph ",
         // editionAmount:,
     //  notes3: "10 copies signed by phono/graph", 
     //  notes3: "19 copies of Artist’s Proofs",
