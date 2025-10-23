@@ -44,23 +44,26 @@ export default function Root() {
           <NewsContainer/>
       </div>
    
- <div className="flex items-baseline border-b-[2px] gap-4 "> 
-    <Link to={`books/7`} className="">   
-     <img src={logo2} alt="" className="w-10 py-0.5" />
-          <h1 className="px-0.5 text-xs"></h1>
-      
-   <h1 className="px-0.5 text-xs">{books[6].year}</h1> 
-    </Link>  </div> <span>   </span>
-   <div className="flex items-baseline border-b-[2px] gap-4 "> 
-    <Link to={`books/5`} className=""> 
-      <img src={books[4].logo} className="w-10 h-9"></img> 
-      <h1 className="px-0.5 text-xs">{books[4].year}</h1> 
-    </Link> <span>   </span>
-    <Link to={`books/6`} className="">   
-      <img src={books[5].logo} className="w-10 h-9"></img> 
-      <h1 className="px-0.5 text-xs">{books[5].year}</h1> 
-    </Link> 
-  </div>
+<div className="flex items-center border-b-[2px] gap-4">
+  <Link to={`books/7`} className="flex items-center gap-2">
+    <img src={logo2} alt="" className="w-10 py-0.5" />
+    <h1 className="text-xs">{books[6].year}</h1>
+  </Link>
+</div>
+ <span>   </span>
+<div className="flex items-center border-b-[2px] gap-2">
+  <Link to={`books/5`} className="flex items-center gap-2">
+    <img src={books[4].logo} className="w-10 h-9" />
+    <h1 className="text-xs">{books[4].year}</h1>
+  </Link>
+  <span className="text-xs">/</span>
+  <Link to={`books/6`} className="flex items-center gap-2">
+    {/* If you want to add an image later, uncomment and use: */}
+    {/* <img src={books[5].logo} className="w-10 h-9" /> */}
+    <h1 className="text-xs">{books[5].year}</h1>
+  </Link>
+</div>
+
             {/* <div className="flex items-baseline border-b-[2px]">
                     <Link to={`books/1`} className=""> <img src={books[0].logo} className="w-10 h-9"></img>
               <h1 className="px-0.5 text-xs">{books[0].year}</h1> </Link> <span>  </span>
@@ -73,37 +76,36 @@ export default function Root() {
        
   
 
-  <div className="flex items-baseline border-b-[2px] gap-4"> 
- 
-    <Link to={`books/2`} className="">   
-      <img src={books[1].logo} className="w-10 h-9"></img> 
-      <h1 className="px-0.5 text-xs">{books[1].year}</h1> 
-    </Link> 
-<span>     </span>
-        <Link to={`books/3`} className=""> 
-      <img src={books[2].logo} className="w-10 h-9"></img> 
-      <h1 className="px-0.5 text-xs">{books[2].year}</h1> 
-    </Link> 
-  </div>
-  <div className="flex items-baseline border-b-[2px]"> 
+  <div className="flex items-center border-b-[2px] gap-2">
+  <Link to={`books/2`} className="flex items-center gap-2">
+    <img src={books[1].logo} className="w-10 h-9" />
+    <h1 className="text-xs">{books[1].year}</h1>
+  </Link>
+  <span className="text-xs">/</span>
+  <Link to={`books/3`} className="flex items-center gap-2">
+    {/* Uncomment to add an image later: */}
+    {/* <img src={books[2].logo} className="w-10 h-9" /> */}
+    <h1 className="text-xs">{books[2].year}</h1>
+  </Link>
+</div>
 
-    
-    
 
-    <Link to={`books/4`} className="">   
-      <img src={books[3].logo} className="w-10 h-9"></img> 
-      <h1 className="px-0.5 text-xs">{books[3].year}</h1> 
-    </Link> 
-  </div>
-    <div className="flex items-baseline border-b-[2px]"> 
 
-    
-       <Link to={`books/1`} className=""> 
+<div className="flex items-center border-b-[2px]">
+  <Link to={`books/4`} className="flex items-center gap-2">
+    <img src={books[3].logo} className="w-10 h-9" />
+    <h1 className="text-xs">{books[3].year}</h1>
+  </Link>
+</div>
+
+
+
+    <div className="flex items-center border-b-[2px]"> 
+
+       <Link to={`books/1`} className="flex items-center gap-2"> 
       <img src={books[0].logo} className="w-10 h-9"></img> 
       <h1 className="px-0.5 text-xs">{books[0].year}</h1> 
     </Link> 
-    
-
   </div>
 
 
@@ -112,47 +114,55 @@ export default function Root() {
 
        
 
-        <div className="flex items-baseline ">
+        <div className="flex items-center border-b-[2px] gap-2">
           <img src={logo3} alt="" className="w-10 py-0.5 " />
           <h1 className="px-0.5 text-xs"></h1>
         </div>
-        <div className="flex items-baseline ">
-          <img src={logo4} alt="" className="w-10 py-0.5" />
-          <h1 className="px-0.5 text-xs"></h1>
-        </div>
-        <div className="flex items-baseline ">
-          <img src={logo5} alt="" className="w-10 py-0.5" />
-          <h1 className="px-0.5 text-xs"></h1>
-        </div>
-        <div className="flex items-baseline ">
-          <img src={logo6} alt="" className="w-10 py-0.5" />
-          <h1 className="px-0.5 text-xs"></h1>
-        </div>
-        <div className="flex items-baseline ">
-          <img src={logo7} alt="" className="w-10 py-0.5" />
-          <h1 className="px-0.5 text-xs"></h1>
-        </div>
-        <div className="flex items-baseline ">
-          <img src={logo8} alt="" className="w-10 py-0.5" />
-          <h1 className="px-0.5 text-xs"></h1>
-        </div>
-        <div className="flex items-baseline ">
-          <img src={logo9} alt="" className="w-10 py-0.5" />
-          <h1 className="px-0.5 text-xs"></h1>
-        </div>
-        <div className="flex items-baseline ">
-          <img src={logo10} alt="" className="w-10 py-0.5" />
-          <h1 className="px-0.5 text-xs"></h1>
-        </div>
-        <div className="flex pb-[0.5px] items-baseline  ">
-          <img src={logo2} alt="" className="w-10 py-0.5" />
-          <h1 className="px-0.5 text-xs"></h1>
-        </div>
-        <div className="flex items-baseline ">
-          <img src={logo12} alt="" className="w-10 py-0.5" />
-          <h1 className="px-0.5 text-xs"></h1>
-        </div>
+
+<div className="flex items-center gap-2 border-b-[2px]">
+  <img src={logo4} alt="" className="w-10 py-0.5" />
+  <h1 className="text-xs"></h1>
+</div>
+
+<div className="flex items-center gap-2 border-b-[2px]">
+  <img src={logo5} alt="" className="w-10 py-0.5" />
+  <h1 className="text-xs"></h1>
+</div>
+
+<div className="flex items-center gap-2 border-b-[2px]">
+  <img src={logo6} alt="" className="w-10 py-0.5" />
+  <h1 className="text-xs"></h1>
+</div>
+
+<div className="flex items-center gap-2 border-b-[2px]">
+  <img src={logo7} alt="" className="w-10 py-0.5" />
+  <h1 className="text-xs"></h1>
+</div>
+
+<div className="flex items-center gap-2 border-b-[2px]">
+  <img src={logo8} alt="" className="w-10 py-0.5" />
+  <h1 className="text-xs"></h1>
+</div>
+
+<div className="flex items-center gap-2 border-b-[2px]">
+  <img src={logo9} alt="" className="w-10 py-0.5" />
+  <h1 className="text-xs"></h1>
+</div>
+
+<div className="flex items-center gap-2 border-b-[2px] pb-[0.5px]">
+  <img src={logo2} alt="" className="w-10 py-0.5" />
+  <h1 className="text-xs"></h1>
+</div>
+
+<div className="flex items-center gap-2 border-b-[2px]">
+  <img src={logo12} alt="" className="w-10 py-0.5" />
+  <h1 className="text-xs"></h1>
+</div>
+
+
+
       </div>
+
       <hr />
       {/* <div className="absolute right-0">
         <News/>
@@ -171,6 +181,8 @@ export default function Root() {
       <div className="flex justify-center  py-9">
         <img src={dodecahedron} alt="" className="w-32 py-9" />
       </div>
+
+
     </>
   );
 }
