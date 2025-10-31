@@ -43,14 +43,77 @@ export default function Root() {
       <div className="absolute right-2 px-2">
           <NewsContainer/>
       </div>
-   
+   {/* 1 */}
+    <div className="flex items-center border-b-[2px]"> 
+
+       <Link to={`books/1`} className="flex items-center gap-2"> 
+      <img src={books[0].logo} className="w-10 h-9"></img> 
+      <h1 className="px-0.5 text-xs">{books[0].year}</h1> 
+    </Link> 
+  </div>
+  {/* 2 */}
 <div className="flex items-center border-b-[2px] gap-4">
   <Link to={`books/7`} className="flex items-center gap-2">
     <img src={logo2} alt="" className="w-10 py-0.5" />
     <h1 className="text-xs">{books[6].year}</h1>
   </Link>
 </div>
- <span>   </span>
+{/* 3 */}
+        <div className="flex items-center border-b-[2px] gap-2">
+          <img src={logo3} alt="" className="w-10 py-0.5 " />
+          <h1 className="px-0.5 text-xs"></h1>
+        </div>
+{/* 4 */}
+<div className="flex items-center gap-2 border-b-[2px]">
+  <img src={logo4} alt="" className="w-10 py-0.5" />
+  <h1 className="text-xs"></h1>
+</div>
+{/* 5 */}
+<div className="flex items-center gap-2 border-b-[2px]">
+  <img src={logo5} alt="" className="w-10 py-0.5" />
+  <h1 className="text-xs"></h1>
+</div>
+{/* 6 */}
+<div className="flex items-center gap-2 border-b-[2px]">
+  <img src={logo6} alt="" className="w-10 py-0.5" />
+  <h1 className="text-xs"></h1>
+</div>
+            {/* <div className="flex items-baseline border-b-[2px]">
+                    <Link to={`books/1`} className=""> <img src={books[0].logo} className="w-10 h-9"></img>
+              <h1 className="px-0.5 text-xs">{books[0].year}</h1> </Link> <span>  </span>
+            <Link to={`books/2`} className="">   <img src={books[1].logo} className="w-10 h-9"></img>
+              <h1 className="px-0.5 text-xs">{books[1].year}</h1>     </Link>
+            </div> */}
+    
+        
+        {/* Book 2 - Isabelle Cornaro */}
+       
+  
+{/* 7 */}
+
+<div className="flex items-center gap-2 border-b-[2px]">
+  <img src={logo10} alt="" className="w-10 py-0.5" />
+  <h1 className="text-xs"></h1>
+</div>
+
+
+{/* 8 */}
+<div className="flex items-center border-b-[2px]">
+  <Link to={`books/4`} className="flex items-center gap-2">
+    <img src={books[3].logo} className="w-10 h-9" />
+    <h1 className="text-xs">{books[3].year}</h1>
+  </Link>
+</div>
+
+{/* 9 */}
+       
+<div className="flex items-center gap-2 border-b-[2px]">
+  <img src={logo8} alt="" className="w-10 py-0.5" />
+  <h1 className="text-xs"></h1>
+</div>
+
+{/* 10 */}
+
 <div className="flex items-center border-b-[2px] gap-2">
   <Link to={`books/5`} className="flex items-center gap-2">
     <img src={books[4].logo} className="w-10 h-9" />
@@ -64,17 +127,28 @@ export default function Root() {
   </Link>
 </div>
 
-            {/* <div className="flex items-baseline border-b-[2px]">
-                    <Link to={`books/1`} className=""> <img src={books[0].logo} className="w-10 h-9"></img>
-              <h1 className="px-0.5 text-xs">{books[0].year}</h1> </Link> <span>  </span>
-            <Link to={`books/2`} className="">   <img src={books[1].logo} className="w-10 h-9"></img>
-              <h1 className="px-0.5 text-xs">{books[1].year}</h1>     </Link>
-            </div> */}
-    
-        
-        {/* Book 2 - Isabelle Cornaro */}
-       
-  
+
+
+{/* 11 */}
+
+
+
+{/* 12 */}
+
+<div className="flex items-center gap-2 border-b-[2px]">
+  <img src={logo9} alt="" className="w-10 py-0.5" />
+  <h1 className="text-xs"></h1>
+</div>
+
+<div className="flex items-center gap-2 border-b-[2px]">
+  <img src={logo12} alt="" className="w-10 py-0.5" />
+  <h1 className="text-xs"></h1>
+</div>
+
+{/* 13 */}
+
+
+
 
   <div className="flex items-center border-b-[2px] gap-2">
   <Link to={`books/2`} className="flex items-center gap-2">
@@ -88,78 +162,6 @@ export default function Root() {
     <h1 className="text-xs">{books[2].year}</h1>
   </Link>
 </div>
-
-
-
-<div className="flex items-center border-b-[2px]">
-  <Link to={`books/4`} className="flex items-center gap-2">
-    <img src={books[3].logo} className="w-10 h-9" />
-    <h1 className="text-xs">{books[3].year}</h1>
-  </Link>
-</div>
-
-
-
-    <div className="flex items-center border-b-[2px]"> 
-
-       <Link to={`books/1`} className="flex items-center gap-2"> 
-      <img src={books[0].logo} className="w-10 h-9"></img> 
-      <h1 className="px-0.5 text-xs">{books[0].year}</h1> 
-    </Link> 
-  </div>
-
-
-
-
-
-       
-
-        <div className="flex items-center border-b-[2px] gap-2">
-          <img src={logo3} alt="" className="w-10 py-0.5 " />
-          <h1 className="px-0.5 text-xs"></h1>
-        </div>
-
-<div className="flex items-center gap-2 border-b-[2px]">
-  <img src={logo4} alt="" className="w-10 py-0.5" />
-  <h1 className="text-xs"></h1>
-</div>
-
-<div className="flex items-center gap-2 border-b-[2px]">
-  <img src={logo5} alt="" className="w-10 py-0.5" />
-  <h1 className="text-xs"></h1>
-</div>
-
-<div className="flex items-center gap-2 border-b-[2px]">
-  <img src={logo6} alt="" className="w-10 py-0.5" />
-  <h1 className="text-xs"></h1>
-</div>
-
-<div className="flex items-center gap-2 border-b-[2px]">
-  <img src={logo7} alt="" className="w-10 py-0.5" />
-  <h1 className="text-xs"></h1>
-</div>
-
-<div className="flex items-center gap-2 border-b-[2px]">
-  <img src={logo8} alt="" className="w-10 py-0.5" />
-  <h1 className="text-xs"></h1>
-</div>
-
-<div className="flex items-center gap-2 border-b-[2px]">
-  <img src={logo9} alt="" className="w-10 py-0.5" />
-  <h1 className="text-xs"></h1>
-</div>
-
-<div className="flex items-center gap-2 border-b-[2px] pb-[0.5px]">
-  <img src={logo2} alt="" className="w-10 py-0.5" />
-  <h1 className="text-xs"></h1>
-</div>
-
-<div className="flex items-center gap-2 border-b-[2px]">
-  <img src={logo12} alt="" className="w-10 py-0.5" />
-  <h1 className="text-xs"></h1>
-</div>
-
-
 
       </div>
 
@@ -186,3 +188,6 @@ export default function Root() {
     </>
   );
 }
+
+// Fiery_Color_014 copy 2.png
+// Fiery_Color_018 copy 2.png
