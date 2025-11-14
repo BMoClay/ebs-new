@@ -114,20 +114,20 @@ export default function Book() {
               </div>
               <hr />
               <div className="grid grid-cols-6 items-baseline py-1">
-                <h3 className="sm:col-span-2 ">Limited Edition</h3>
+                <h3 className="sm:col-span-2 ">Books</h3>
                 <h3 className="sm:col-span-3">{book.edition} {book.editionAmount} </h3>
               </div>
-              <hr />
+              {/* <hr />
                  <div className="grid grid-cols-6 items-baseline py-1">
                 <h3 className="sm:col-span-2 ">Artist Proofs</h3>
                 <h3 className="sm:col-span-3">{book.o1edition} {book.o1editionAmount} </h3>
               </div>
-              <hr />
+              <hr /> */}
 
-               <div className="grid grid-cols-6 items-baseline py-1">
+               {/* <div className="grid grid-cols-6 items-baseline py-1">
                 <h3 className="sm:col-span-2 ">Signed by Artist</h3>
                 <h3 className="sm:col-span-3">{book.o2edition} {book.o2editionAmount} </h3>
-              </div>
+              </div> */}
               <hr />
               <div className="grid grid-cols-6 items-baseline py-1">
                 <h3 className="sm:col-span-2 ">Price</h3>
