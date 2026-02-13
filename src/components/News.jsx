@@ -60,7 +60,7 @@ function News({ closeModal }) {
                             </p>
                             <br />
                             <p>
-                                At EAC (Les Halles) in Porrentruy, <i>ECHO</i> becomes a spatial installation. This reinterpretation of the book's content is expanded through additions in the form of new works by the artist collective phono/graph as well as by the two artists invited by ebs, Václav Pozarek and Philippe Queloz. The result is a temporary, extended mode of reading that unfolds horizontally and vertically in the exhibition space.
+                                At EAC (Les Halles) in Porrentruy, <i>ECHO</i> becomes a spatial installation. This reinterpretation of the book's content is expanded through additions in the form of new works by the artist collective phono/graph as well as by the two artists invited by ebs, Vaclav Pozarek and Philippe Queloz. The result is a temporary, extended mode of reading that unfolds horizontally and vertically in the exhibition space.
                             </p>
                             <br />
                             <p>
