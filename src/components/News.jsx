@@ -9,6 +9,7 @@ import echologo from "/assets/news/echo2.png"
 import ebbslogo from "/assets/news/echo3.png"
 import video1 from "/assets/news/echo4.mov"
 import VolImg from "/assets/news/volumes-2025.jpg"
+import halles from "/assets/news/echo1b.jpg"
 // import PdfViewer from "../components/Pdf-view"
 // import news from "./components/news.css"
 
@@ -25,10 +26,53 @@ function News({ closeModal }) {
                     <button className="absolute right-2" onClick={handleClose}>x</button>
                     <div className="py-8 pr-2">
                         <div className="border-b"></div>
+                        {/* new news */}
                         <div className="text-left text-base">
                             <br />
                             <p>
-                                <b>ebs is participating in VOLUMES 2025, returning to the Nordflügel and Stall 6 of Gessnerallee Zürich for this year’s November edition of the art publishing days.</b>
+                                <b>ECHO, an artist's book by phono/graph and ebs at Espace d'art contemporain (les halles)</b>
+                                <br />
+                                Rue Pierre Péquignat 9
+                                <br />
+                                2800 Porrentruy
+                                <br />
+                                <u><a href="http://www.eac-leshalles.ch" target="_blank">www.eac-leshalles.ch</a></u>
+                                <br />
+                                <br />
+                                February 14 – April 6, 2026
+                                <br />
+                                Exhibition conceived and presented by Susanne Bieri (ebs)
+                                <br />
+                                Opening: Saturday, February 14, 2026, 6 PM
+                                <br />
+                                Intervention: phono/graph
+                            </p>
+                            <br />
+                            <p>
+                                <i>ECHO</i> is primarily a comprehensive study, in book form, of the acoustic phenomenon of echo and its historical context. The analysis is rooted in typography and graphic elements, playing with both the "form" and the meaning of the word echo across diverse cultural contexts.
+                            </p>
+                            <br />
+                            <p>
+                                At EAC (Les Halles) in Porrentruy, <i>ECHO</i> becomes a spatial installation. This reinterpretation of the book's content is expanded through additions in the form of new works by the artist collective phono/graph as well as by the two artists invited by ebs, Václav Pozarek and Philippe Queloz. The result is a temporary, extended mode of reading that unfolds horizontally and vertically in the exhibition space.
+                            </p>
+                            <br />
+                            <p>
+                                The exhibition is supported by: DNP Foundation for Cultural Promotion; Ichigaya Letterpress Factory Shinkaichi; Community Center for Arts and Interaction.
+                            </p>
+                        </div>
+                        <div className="flex justify-center">
+                        <div className="max-w-3xl">
+                            <img src={halles} />
+                        </div>
+                        </div>
+                        <div className="border-b"></div>
+
+                    <div className="border-b"> Past News</div>
+
+                        <div className="text-left text-base">
+                            <br />
+                            <p>
+                                <b>ebs is participating in VOLUMES 2025, returning to the Nordflügel and Stall 6 of Gessnerallee Zürich for this year's November edition of the art publishing days.</b>
                                 <br />
                                 When:
                                 <br />
@@ -43,16 +87,13 @@ function News({ closeModal }) {
                                 Gessnerallee 8, 8001 Zürich
                             </p>
                             <br />
-                              <div className="flex justify-center">
-                        <div className="max-w-3xl">
-                            <img src={VolImg} />
+                            <div className="flex justify-center">
+                                <div className="max-w-3xl">
+                                    <img src={VolImg} />
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                            <div className="border-b"></div>
-                        </div>
-                          <div className="border-b"></div>
-                    <div className="border-b"> Past News</div>
-
+                        <div className="border-b"></div>
 
                         <div className="flex justify-center">
                             <div className="max-w-80"><img src={echologo} /></div>
