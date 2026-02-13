@@ -10,7 +10,7 @@ import ebbslogo from "/assets/news/echo3.png"
 import video1 from "/assets/news/echo4.mov"
 import VolImg from "/assets/news/volumes-2025.jpg"
 import halles from "/assets/news/echo1b.jpg"
-import {halles2} from "/assets/news/echo3c.jpg"    
+import {halles2} from "/assets/news/echo3c.jpeg"    
 // import PdfViewer from "../components/Pdf-view"
 // import news from "./components/news.css"
 
