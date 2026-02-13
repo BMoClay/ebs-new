@@ -10,6 +10,7 @@ import ebbslogo from "/assets/news/echo3.png"
 import video1 from "/assets/news/echo4.mov"
 import VolImg from "/assets/news/volumes-2025.jpg"
 import halles from "/assets/news/echo1b.jpg"
+import {halles2} from "/assets/news/echo3c.jpg"    
 // import PdfViewer from "../components/Pdf-view"
 // import news from "./components/news.css"
 
@@ -27,10 +28,16 @@ function News({ closeModal }) {
                     <div className="py-8 pr-2">
                         <div className="border-b"></div>
                         {/* new news */}
+
+                        <div className="flex justify-center">
+                            <div className="max-w-3xl">
+                                <img src={halles} />
+                            </div>
+                        </div>
                         <div className="text-left text-base">
                             <br />
                             <p>
-                                <b>ECHO, an artist's book by phono/graph and ebs at Espace d'art contemporain (les halles)</b>
+                                <b>ECHO, an artist’s book by phono/graph and ebs at espace d’art contemporain EAC (les halles)</b>
                                 <br />
                                 Rue Pierre Péquignat 9
                                 <br />
@@ -62,7 +69,7 @@ function News({ closeModal }) {
                         </div>
                         <div className="flex justify-center">
                         <div className="max-w-3xl">
-                            <img src={halles} />
+                            <img src={halles2} />
                         </div>
                         </div>
                         <div className="border-b"></div>
