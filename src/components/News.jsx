@@ -64,8 +64,7 @@ function News({ closeModal }) {
                             </p>
                             <br />
                             <p>
-                                The exhibition is supported by: DNP Foundation for Cultural Promotion; Ichigaya Letterpress Factory Shinkaichi; Community Center for Arts and Interaction.
-                            </p>
+                            The exhibition is supported by: DNP Foundation for Cultural Promotion; Ichigaya Letterpress Factory; Shinkaichi Community Center for Arts and Interaction. </p>
                         </div>
                         <div className="flex justify-center">
                         <div className="max-w-3xl">
