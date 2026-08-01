@@ -36,6 +36,10 @@ const sliderStyles = {
   // height: "100%",
 };
 
+// The slider holds both stills and video files, so detect video sources by
+// their bundled URL extension and render a muted, looping <video> for them.
+const isVideo = (src) => typeof src === "string" && /\.(mp4|mov|webm|ogg)(\?|$)/i.test(src);
+
 // const dotsContainerStyles = {
 //   display: "flex",
 //   justifyContent: "center",
@@ -90,9 +94,20 @@ const ImageSlider = ({ pictures }) => {
           ❱
         </div>
       </div>
-      {/* <video src={videos[currentIndex].videoFile} autoPlay className="w-full object-cover"></video> */}
-      <div  >
-        <img src={pictures[currentIndex].imgFile} alt="" />
+      <div>
+        {isVideo(pictures[currentIndex].imgFile) ? (
+          <video
+            src={pictures[currentIndex].imgFile}
+            autoPlay
+            muted
+            loop
+            playsInline
+            controls
+            className="w-full object-cover"
+          />
+        ) : (
+          <img src={pictures[currentIndex].imgFile} alt="" />
+        )}
       </div>
       {/* <div style={slideStylesWidthBackground}></div> */}
       {/* <div style={dotsContainerStyles}>
