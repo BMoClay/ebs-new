@@ -47,6 +47,7 @@ import logo1 from "/assets/logos/Fiery_Color_021 copy 2.png";
 // import logo3 from "/assets/logos/Fiery_Color_010_ok copy 2.png"
 import video1 from "/assets/video/WhatsApp Vid.mp4";
 import video2 from "/assets/video/video2.mov";
+import rollVideo from "/assets/video/roll-1.mp4";
 import poz1 from "/assets/coverImages/IMG_1444.jpg"; 
 import poz2 from "/assets/coverImages/IMG_1492.jpg";
 import a484 from "/assets/coverImages/IMG_1972.jpg";
@@ -552,6 +553,54 @@ export const BOOKS = [
         //   // {id:14, imgFile: video2}
         // ],
         // video: video2, // Added video property
+        available: true,
+      },
+      {
+        id: 8,
+        bookTitle: "ROLLINGROLL",
+        headerArtist: "Vaclav Pozarek",
+        artist: "Vaclav Pozarek",
+        urlText: "vaclav-pozarek",
+        year: "2026",
+        pages: 56,
+        size: "33 x 33 cm",
+        binding: "Staplebound",
+        price: "CHF 50.-",
+        edition: "First",
+        editionAmount: "300 copies",
+        attribution: "ROLLINGROLL is published on the occasion of OOF (One or Five), Václav Požárek’s solo exhibition at 15 Orient Gallery, New York, from March 20 to May 1, 2026.",
+        notes: "At first glance, ROLLINGROLL recalls the grey-blue Swiss school exercise books that were widely used until the 1970s: a simple drawing notebook with what appears to be a linen-reinforced spine, containing coloured-pencil drawings of circles that seem to follow a didactic exercise.",
+        notes3: "Yet subtle shifts disrupt this first impression. The unusually large format of the book—determined by the circles, reproduced at their original size with faithful colour accuracy—the cover with its merely printed linen reinforcement, and the title set in capital letters all distance ROLLINGROLL from what it initially appears to be. The circles—readable as colour wheels, colour discs, or pie charts—follow a rigorous logic of variation based on sector divisions and chromatic permutations. From this emerge surprising, often unexpected colour relationships within a conceptual framework.",
+        notes5: "ROLLINGROLL unfolds a subtle interplay of precision and play, of relationships and rhythms, in a way that only the artist’s book as a form can achieve. The series of circles can never be grasped in its entirety at a single glance; instead, memory, the present, and what follows merge for the reader into a continuous visual flow.",
+        notes7: "Realized by VIAINDUSTRIAE.",
+        bio: "",
+        websiteUrl: "",
+        website: "",
+        logo: logoA5,
+        video: rollVideo,
+        available: true,
+      },
+      {
+        id: 9,
+        bookTitle: "ROLLINGROLL: special edition",
+        headerArtist: "Vaclav Pozarek",
+        artist: "Vaclav Pozarek",
+        urlText: "vaclav-pozarek",
+        year: "2026*",
+        pages: 56,
+        size: "33 x 33 cm",
+        binding: "Staplebound",
+        price: "CHF 450.-",
+        edition: "First, of which 30 copies are signed and numbered 1/30–30/30 as special editions with original inserts.",
+        editionAmount: "1/30–30/30",
+        attribution: "The special edition includes an original ink drawing titled OOF by Václav Požárek.",
+        notes: "Each copy of ROLLINGROLL contains one of 30 unique variations of the One or Five logo, designed by the artist for the exhibition. These original drawings have been specially produced as an integral component of the artist’s publication.",
+        notes7: "Realized by VIAINDUSTRIAE.",
+        bio: "",
+        websiteUrl: "",
+        website: "",
+        logo: logoA5,
+        video: rollVideo,
         available: true,
       },
       // {

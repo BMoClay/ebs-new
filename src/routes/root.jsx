@@ -63,10 +63,16 @@ export default function Root() {
           <img src={logo3} alt="" className="w-10 py-0.5 " />
           <h1 className="px-0.5 text-xs"></h1>
         </div>
-{/* 4 */}
+{/* 4 - ROLLINGROLL (normal + special edition) */}
 <div className="flex items-center gap-2 border-b-[2px]">
-  <img src={logo4} alt="" className="w-10 py-0.5" />
-  <h1 className="text-xs"></h1>
+  <Link to={`books/8`} className="flex items-center gap-2">
+    <img src={books[7].logo} className="w-10 h-9" />
+    <h1 className="text-xs">{books[7].year}</h1>
+  </Link>
+  <span className="text-xs">/</span>
+  <Link to={`books/9`} className="flex items-center gap-2">
+    <h1 className="text-xs">{books[8].year}</h1>
+  </Link>
 </div>
 {/* 5 */}
 <div className="flex items-center gap-2 border-b-[2px]">
@@ -131,14 +137,12 @@ export default function Root() {
 
 {/* 11 */}
 
-
-
-{/* 12 */}
-
 <div className="flex items-center gap-2 border-b-[2px]">
   <img src={logo9} alt="" className="w-10 py-0.5" />
   <h1 className="text-xs"></h1>
 </div>
+
+{/* 12 */}
 
 <div className="flex items-center gap-2 border-b-[2px]">
   <img src={logo12} alt="" className="w-10 py-0.5" />
@@ -146,9 +150,6 @@ export default function Root() {
 </div>
 
 {/* 13 */}
-
-
-
 
   <div className="flex items-center border-b-[2px] gap-2">
   <Link to={`books/2`} className="flex items-center gap-2">
