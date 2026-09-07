@@ -79,10 +79,16 @@ export default function Root() {
   <img src={logo5} alt="" className="w-10 py-0.5" />
   <h1 className="text-xs"></h1>
 </div>
-{/* 6 */}
+{/* 6 - the Toblerones (normal + special edition) */}
 <div className="flex items-center gap-2 border-b-[2px]">
-  <img src={logo6} alt="" className="w-10 py-0.5" />
-  <h1 className="text-xs"></h1>
+  <Link to={`books/10`} className="flex items-center gap-2">
+    <img src={books[9].logo} className="w-10 h-9" />
+    <h1 className="text-xs">{books[9].year}</h1>
+  </Link>
+  <span className="text-xs">/</span>
+  <Link to={`books/11`} className="flex items-center gap-2">
+    <h1 className="text-xs">{books[10].year}</h1>
+  </Link>
 </div>
             {/* <div className="flex items-baseline border-b-[2px]">
                     <Link to={`books/1`} className=""> <img src={books[0].logo} className="w-10 h-9"></img>
@@ -95,11 +101,17 @@ export default function Root() {
         {/* Book 2 - Isabelle Cornaro */}
        
   
-{/* 7 */}
+{/* 7 - Le Livre du The (normal + special edition) */}
 
 <div className="flex items-center gap-2 border-b-[2px]">
-  <img src={logo10} alt="" className="w-10 py-0.5" />
-  <h1 className="text-xs"></h1>
+  <Link to={`books/12`} className="flex items-center gap-2">
+    <img src={books[11].logo} className="w-10 h-9" />
+    <h1 className="text-xs">{books[11].year}</h1>
+  </Link>
+  <span className="text-xs">/</span>
+  <Link to={`books/13`} className="flex items-center gap-2">
+    <h1 className="text-xs">{books[12].year}</h1>
+  </Link>
 </div>
 
 
