@@ -125,7 +125,11 @@ function News({ closeModal }) {
                         </div>
                         <div className="border-b"></div>
 
+                    <div className="py-12"></div>
+
                     <div className="border-b"> Past News</div>
+
+                    <div className="py-6"></div>
 
                         <div className="text-left text-base">
                             <br />

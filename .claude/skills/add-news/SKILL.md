@@ -24,14 +24,47 @@ the visual rhythm of the modal depends on it.
 modalBackground
   ├─ close button (x)
   ├─ {/* new news */}      ← newest entries go directly below this marker
-  │    entry, entry, …          (current items, newest first)
+  │    entry, entry, …          (CURRENT items, newest first)
+  ├─ <div className="py-12"></div>         ← gap above the divider
   ├─ <div className="border-b"> Past News</div>
-  └─ archived entries…          (older items, newest first)
+  ├─ <div className="py-6"></div>          ← gap below the divider
+  └─ archived entries…          (EVERYTHING else, newest first)
 ```
 
-**Newest first.** A new item goes immediately after the `{/* new news */}`
-comment, pushing the previous top entry down. Do not append to the bottom — the
-bottom of the file is the oldest archive material.
+### The Past News line is the only structural rule that matters
+
+**Anything current goes above `Past News`. Everything else goes below it.**
+There are exactly two zones and every entry belongs to one of them:
+
+- **Above the divider** — news that is still ahead or still running: an
+  upcoming or open exhibition, an announced book launch, a fair ebs is about to
+  attend, a live invitation. Newest first.
+- **Below the divider** — everything that has happened. Once an exhibition
+  closes or an event date passes, its block moves down. Newest first here too.
+
+A new item therefore goes immediately after the `{/* new news */}` comment,
+pushing the previous top entry down **within the upper zone**. Never append a
+new item to the bottom of the file — the bottom is the oldest archive material.
+Never leave a finished event sitting above the divider.
+
+### Keep the two zones visually separated
+
+The divider must not read as just another `border-b` rule between two entries,
+or the modal turns into one undifferentiated scroll. Keep a comfortable gap on
+both sides of it:
+
+```jsx
+    <div className="border-b"></div>        {/* closes the last current entry */}
+
+    <div className="py-12"></div>           {/* breathing room */}
+
+    <div className="border-b"> Past News</div>
+
+    <div className="py-6"></div>            {/* breathing room */}
+```
+
+Preserve those spacer divs when adding or retiring an entry — it is easy to
+delete one by accident while moving a block across the boundary.
 
 ## Steps
 
@@ -106,9 +139,13 @@ bottom of the file is the oldest archive material.
    street address, leave those lines out and say so in your report. An
    exhibition entry with a wrong date is worse than one with none.
 
-6. **Retire the previous item if asked.** "Move X to past news" means cutting
-   that entry's block and re-inserting it directly below the
-   `<div className="border-b"> Past News</div>` line, unchanged.
+6. **Retire anything that has finished.** "Move X to past news" — or simply
+   noticing that an entry above the divider is for an exhibition that has now
+   closed — means cutting that entry's block whole and re-inserting it below
+   the `Past News` divider (below the `py-6` spacer), unchanged and still
+   newest-first among the archived items. Check the upper zone for stale
+   entries whenever you add a new one; leaving a closed show above the divider
+   is the most common way this file goes wrong.
 
 7. **Verify the build:**
    ```bash
@@ -122,7 +159,11 @@ bottom of the file is the oldest archive material.
 
 - **The modal has no scroll restoration or routing** — an entry is only ever
   seen by someone who opened the News button, so the top slot is the only one
-  with real visibility. Order matters more than it looks.
+  with real visibility. Order matters more than it looks, and an entry that
+  slips below `Past News` too early is effectively unpublished.
+- **There is no date logic anywhere.** Nothing moves an entry across the
+  `Past News` divider on its own — the zones are maintained purely by hand, so
+  the split is only ever as current as the last person who edited this file.
 - **JSX text is not HTML.** Curly braces in prose must be escaped or avoided;
   apostrophes and quotes are fine as literal characters, which is what the rest
   of the file does. Don't convert them to `&rsquo;` entities.
