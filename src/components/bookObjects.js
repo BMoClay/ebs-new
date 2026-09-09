@@ -76,6 +76,8 @@ import img7438 from "/assets/coverImages/IMG_7438_edited_s.jpg";
 import img7478 from "/assets/coverImages/IMG_7478_edited_s.jpg";
 import img7526 from "/assets/coverImages/IMG_7526_edited_s.jpg";
 import echo01 from "/assets/coverImages/___ECHO_01_s.jpg";
+import toblerones from "/assets/coverImages/theToblerones.jpg";
+import leLivreDuThe from "/assets/coverImages/LeLivredu.jpg";
 
 export const BOOKS = [
      {
@@ -641,5 +643,119 @@ export const BOOKS = [
 //   video: video2, // Added video property
       //   available: true,
       // },
+      {
+        id: 10,
+        bookTitle: "the Toblerones",
+        headerArtist: "Olivier Mosset",
+        artist: "Olivier Mosset",
+        urlText: "olivier-mosset",
+        year: "2026",
+        pages: 178,
+        size: "22 x 22 cm",
+        binding: "Housed in a rigid greyboard portfolio (closed format: 22.5 × 22.5 cm), containing the thread-sewn softcover volume (closed format: 22 × 22 cm) together with six loose inserts, including two posters featuring Olivier Mosset’s hand-drawn Toblerones (60 × 46 cm and 60 × 24 cm), an official site plan documenting the seven Toblerone blocks at Eptingen (BL, Switzerland) owned and designated as artworks by Olivier Mosset, and a complete chronological catalogue of all Toblerones realized by the artist to date.",
+        price: "CHF 80.-",
+        edition: "First. Based on distinguished national and international sources and contributors; researched and edited with Olivier Mosset by ebs. Designed an realized by VIAINDUSTRIAE (IT).",
+        editionAmount: "500",
+        attribution: "Researched and edited with Olivier Mosset by ebs. Designed and realized by VIAINDUSTRIAE (IT).",
+        notes: "This approach also informs Mosset’s longstanding engagement with the so-called “Toblerones” — the distinctive concrete anti-tank blocks constructed as part of Switzerland’s national defence system during the Second World War. Since discovering them in 1994, Mosset has been fascinated by these anonymous yet highly precise forms as a point of intersection between Minimalism, Land Art, and “found abstraction”. Over more than three decades, he has produced around 170 “Toblerones” in a wide range of materials and contexts.",
+        notes3: "The artist’s book “the Toblerones” represents the provisional culmination of this engagement. Beginning with questions surrounding the origin, authorship, and history of the concrete blocks’ form, we undertook several years of research bringing together historical sources, archives, and eyewitness accounts. The book is conceived simultaneously as an artistic project, a historical investigation, and a reflection on the emergence of a form that remains anonymous to this day while being deeply embedded in Switzerland’s collective memory.",
+        notes5: "Housed in a rigid greyboard portfolio, containing the volume together with six loose inserts, including two posters featuring Olivier Mosset’s hand-drawn Toblerones, an official site plan documenting the seven Toblerone blocks at Eptingen (BL, Switzerland) owned and designated as artworks by Olivier Mosset, and a complete chronological catalogue of all Toblerones realized by the artist to date.",
+        bio: "Olivier Mosset (*1944) is regarded as one of the most significant representatives of contemporary abstract painting. Since the 1960s, he has challenged conventional notions of originality, authorship, and artistic production, pursuing a visual language consistently focused on colour, form, and space. His works deliberately avoid any subjective artistic signature and continue to shape the discourse around abstract painting to this day.",
+        websiteUrl: "",
+        website: "",
+        logo: logoA6,
+        images: [
+          {
+            id: 1,
+            imgFile: toblerones
+          },
+        ],
+        available: true,
+      },
+      {
+        id: 11,
+        bookTitle: "the Toblerones: special edition",
+        headerArtist: "Olivier Mosset",
+        artist: "Olivier Mosset",
+        urlText: "olivier-mosset",
+        year: "2026*",
+        pages: 178,
+        size: "22 x 22 cm",
+        binding: "The special edition is presented in the same rigid greyboard portfolio, containing the thread-sewn softcover volume together with six loose inserts, including two posters.",
+        price: "Starting price: CHF 3,550.– The special edition is sold at tiered pricing.",
+        edition: "Special Edition. Signed and numbered by the artist (1/30–30/30).",
+        editionAmount: "30",
+        attribution: "Signed and numbered by the artist (1/30–30/30).",
+        notes: "The special edition is presented in the same rigid greyboard portfolio, containing the thread-sewn softcover volume together with six loose inserts, including two posters.",
+        bio: "Olivier Mosset (*1944) is regarded as one of the most significant representatives of contemporary abstract painting. Since the 1960s, he has challenged conventional notions of originality, authorship, and artistic production, pursuing a visual language consistently focused on colour, form, and space.",
+        websiteUrl: "",
+        website: "",
+        logo: logoA6,
+        images: [
+          {
+            id: 1,
+            imgFile: toblerones
+          },
+        ],
+        available: true,
+      },
+      {
+        id: 12,
+        bookTitle: "Le Livre du Thé",
+        headerArtist: "John M. Armleder",
+        artist: "John M. Armleder",
+        urlText: "john-m-armleder",
+        year: "2026",
+        pages: 632,
+        size: "14 x 18 cm",
+        binding: "Thread-sewn softcover. Additional material: Separate inserted colophon leaf.",
+        price: "CHF 80.-",
+        edition: "First. Artwork by John M. Armleder. Designed and reproduced by Izet Sheshivari. Produced by La Tipografica, Bevagna (PG), Italy",
+        editionAmount: "500 numbered copies (1/500–500/500)",
+        attribution: "Artwork by John M. Armleder. Designed and reproduced by Izet Sheshivari. Produced by La Tipografica, Bevagna (PG), Italy.",
+        notes: "Le Livre du Thé emerged from this context. During Ecart’s activities, Armleder regularly served tea to visitors and fellow artists, carefully preserving the paper placemats marked by stains and traces of use. The 632 embossed, cut, and materially inscribed sheets now form the content of the artists’ book. Without commentary or imposed order, they record conversations, encounters, and shared moments. Le Livre du Thé is at once an archive, a social sculpture, and an autonomous work of art.",
+        notes3: "The present work, conceived as an artist’s book by John Armleder and carefully preserved in mock-up form since the 1970s, came to ebs’s attention through a conversation with Elisabeth Jobin. It comprises dozens of embossed paper placemats, cut into pieces and marked by tea stains. In essence, it constitutes an inventory of John Armleder’s numerous tea-related conversations.",
+        notes5: "John M. Armleder. Le Livre du Thé. First edition of 500 numbered copies (1/500–500/500), including 12 special editions, each accompanied by an original artwork by the artist, signed and numbered (1/12–12/12). Format: 14 × 18 cm. 632 pages. Printed in full colour. Thread-sewn softcover. Includes a separately inserted colophon leaf.",
+        bio: "John M. Armleder (*1948) is one of the most influential Swiss artists of his generation. His work is characterised by an exceptional openness, moving fluidly between painting, sculpture, installation, design, performance, and publishing. With the Ecart group, founded in 1969 together with Patrick Lucchini and Claude Rychner, he developed a practice that intertwined art and everyday life, understanding social exchange as an integral part of artistic production.",
+        websiteUrl: "",
+        website: "",
+        logo: logoA10,
+        images: [
+          {
+            id: 1,
+            imgFile: leLivreDuThe
+          },
+        ],
+        available: true,
+      },
+      {
+        id: 13,
+        bookTitle: "Le Livre du Thé: special edition",
+        headerArtist: "John M. Armleder",
+        artist: "John M. Armleder",
+        urlText: "john-m-armleder",
+        year: "2026*",
+        pages: 632,
+        size: "30 × 60 cm",
+        binding: "Presented in a custom sleeve designed to accompany the book.",
+        price: "Starting price: CHF 3,550.– The special edition is sold at tiered pricing.",
+        edition: "Special Edition. Original artworks by the artist, signed and numbered (1/12–12/12).",
+        editionAmount: "12",
+        attribution: "John M. Armleder — Le Livre du Thé — Special Edition of 12 Linen Napkins.",
+        notes: "The special edition comprises twelve original linen napkins by John M. Armleder. Inspired by his celebrated Pour Paintings and playfully marked with coffee stains, each napkin is a unique artwork. Created to accompany Le Livre du Thé, the set introduces an ironic twist: although the book centers on tea, Armleder chose coffee as his staining medium.",
+        notes3: "Each napkin forms a distinct composition shaped by chance and gesture, reflecting the artist’s ongoing exploration of materiality, everyday objects, and the tension between seriality and singularity. The napkins are folded and presented in a custom sleeve designed to accompany the book, merging conceptual clarity with domestic familiarity and situating these textile works firmly within Armleder’s broader practice.",
+        notes5: "Technique: Coffee stains on linen napkins.",
+        bio: "John M. Armleder (*1948) is one of the most influential Swiss artists of his generation. His work is characterised by an exceptional openness, moving fluidly between painting, sculpture, installation, design, performance, and publishing.",
+        websiteUrl: "",
+        website: "",
+        logo: logoA10,
+        images: [
+          {
+            id: 1,
+            imgFile: leLivreDuThe
+          },
+        ],
+        available: true,
+      },
 ]
 

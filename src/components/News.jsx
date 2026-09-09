@@ -11,6 +11,7 @@ import video1 from "/assets/news/echo4.mov"
 import VolImg from "/assets/news/volumes-2025.jpg"
 import halles from "/assets/news/echo1b.jpg"
 import halles2 from "/assets/news/echo3c.jpeg"    
+import invito1 from "/assets/news/INVITO1.jpg"
 // import PdfViewer from "../components/Pdf-view"
 // import news from "./components/news.css"
 
@@ -28,6 +29,57 @@ function News({ closeModal }) {
                     <div className="py-8 pr-2">
                         <div className="border-b"></div>
                         {/* new news */}
+
+                        <div className="flex justify-center">
+                            <div className="max-w-3xl">
+                                <img src={invito1} />
+                            </div>
+                        </div>
+                        <div className="text-left text-base">
+                            <br />
+                            <p>
+                                <b>OLIVIER MOSSET – JOHN ARMLEDER. Toblerones and Thé</b>
+                                <br />
+                                Susanne Bieri
+                                <br />
+                                <br />
+                                Spazio Officina, Centro Culturale Chiasso
+                            </p>
+                            <br />
+                            <p>
+                                The exhibition <i>OLIVIER MOSSET – JOHN ARMLEDER. Artistic Explorations: Toblerones and Thé</i> takes an unusual point of departure: exhibitions are typically conceived before the publications that accompany them. In the case of <i>Toblerones and Thé</i>, however, the sequence is reversed. The project originates from two artists’ books published in 2026 by ebs editionsbierisusanne: <i>the Toblerones</i> by Olivier Mosset and <i>Le Livre du Thé</i> by John M. Armleder. The exhibition grows out of these two artists’ books, translating their distinct conceptual approaches into spatial form.
+                            </p>
+                            <br />
+                            <p>
+                                Olivier Mosset (*1944) is among the leading figures of contemporary abstract painting. Since the 1960s, he has questioned notions of originality, authorship, and artistic production, developing a practice consistently centered on color, form, and space. His works deliberately avoid any subjective gesture and continue to shape the discourse on abstract painting.
+                            </p>
+                            <br />
+                            <p>
+                                This position also underlies Mosset’s long-term engagement with the so-called “Toblerones” – the characteristic concrete anti-tank obstacles of Switzerland’s Second World War defence system. Since discovering them in 1994, these anonymous yet highly precise forms have fascinated him as a point of convergence between Minimalism, Land Art, and “found abstraction”. Over more than three decades, Mosset has realized approximately 170 Toblerones in a wide range of materials and contexts.
+                            </p>
+                            <br />
+                            <p>
+                                The artists’ book <i>the Toblerones</i> represents the culmination of this research. It is the result of a long-term investigation into the origins, authorship, and formal history of these concrete structures, bringing together historical sources, archival material, and testimonies. The artists’ book is at once an artistic project and a historical inquiry, while reflecting on the emergence of a form that remains anonymous yet is deeply embedded in Switzerland’s collective memory.
+                            </p>
+                            <br />
+                            <p>
+                                John M. Armleder (*1948) is one of the most influential Swiss artists of his generation. His work is characterized by an exceptional openness, moving fluidly between painting, sculpture, installation, design, performance, and publishing. With the Ecart group, founded in 1969 together with Patrick Lucchini and Claude Rychner, he developed a practice that intertwined art and everyday life, understanding social exchange as an integral part of artistic production.
+                            </p>
+                            <br />
+                            <p>
+                                <i>Le Livre du Thé</i> emerged from this context. During Ecart’s activities, Armleder regularly served tea to visitors and fellow artists, carefully preserving the paper placemats marked by stains and traces of use. The 632 embossed, cut, and materially inscribed sheets now form the content of the artists’ book. Without commentary or imposed order, they record conversations, encounters, and shared moments. <i>Le Livre du Thé</i> is at once an archive, a social sculpture, and an autonomous work of art.
+                            </p>
+                            <br />
+                            <p>
+                                Although both artists’ books revolve around traces of human activity, they could hardly be more different. While <i>the Toblerones</i> investigates an anonymous military form and its history, <i>Le Livre du Thé</i> gathers the incidental traces of social encounters. One pursues a rigorous inquiry into origin and authorship; the other preserves the ephemerality of everyday life while deliberately resisting explanation.
+                            </p>
+                            <br />
+                            <p>
+                                The exhibition at Spazio Officina, Centro Culturale Chiasso, translates these two artists’ books into spatial form for the first time. Drawing on the research presented in <i>the Toblerones</i>, Mosset realizes a unique edition of twelve so-called “dragon’s teeth” from the Siegfried Line—the historical predecessors of his later Toblerones. Opposite them stands <i>Liotard/Aalto (Tse-Tse/Castagnettes) FS</i> (2015) by John M. Armleder, evoking the social and contemplative dimension of <i>Le Livre du Thé</i>. Together, the two works establish a dialogue between obstacle and encounter, historical inquiry and lived experience.
+                            </p>
+                        </div>
+                        <div className="border-b"></div>
+
 
                         <div className="flex justify-center">
                             <div className="max-w-3xl">
@@ -73,7 +125,11 @@ function News({ closeModal }) {
                         </div>
                         <div className="border-b"></div>
 
+                    <div className="py-12"></div>
+
                     <div className="border-b"> Past News</div>
+
+                    <div className="py-6"></div>
 
                         <div className="text-left text-base">
                             <br />
