@@ -101,16 +101,16 @@ export default function Root() {
         {/* Book 2 - Isabelle Cornaro */}
        
   
-{/* 7 - Le Livre du The (normal + special edition) */}
+{/* 7 - 484 (normal + special edition) */}
 
-<div className="flex items-center gap-2 border-b-[2px]">
-  <Link to={`books/12`} className="flex items-center gap-2">
-    <img src={books[11].logo} className="w-10 h-9" />
-    <h1 className="text-xs">{books[11].year}</h1>
+<div className="flex items-center border-b-[2px] gap-2">
+  <Link to={`books/5`} className="flex items-center gap-2">
+    <img src={books[4].logo} className="w-10 h-9" />
+    <h1 className="text-xs">{books[4].year}</h1>
   </Link>
   <span className="text-xs">/</span>
-  <Link to={`books/13`} className="flex items-center gap-2">
-    <h1 className="text-xs">{books[12].year}</h1>
+  <Link to={`books/6`} className="flex items-center gap-2">
+    <h1 className="text-xs">{books[5].year}</h1>
   </Link>
 </div>
 
@@ -130,18 +130,16 @@ export default function Root() {
   <h1 className="text-xs"></h1>
 </div>
 
-{/* 10 */}
+{/* 10 - Le Livre du The (normal + special edition) */}
 
 <div className="flex items-center border-b-[2px] gap-2">
-  <Link to={`books/5`} className="flex items-center gap-2">
-    <img src={books[4].logo} className="w-10 h-9" />
-    <h1 className="text-xs">{books[4].year}</h1>
+  <Link to={`books/12`} className="flex items-center gap-2">
+    <img src={books[11].logo} className="w-10 h-9" />
+    <h1 className="text-xs">{books[11].year}</h1>
   </Link>
   <span className="text-xs">/</span>
-  <Link to={`books/6`} className="flex items-center gap-2">
-    {/* If you want to add an image later, uncomment and use: */}
-    {/* <img src={books[5].logo} className="w-10 h-9" /> */}
-    <h1 className="text-xs">{books[5].year}</h1>
+  <Link to={`books/13`} className="flex items-center gap-2">
+    <h1 className="text-xs">{books[12].year}</h1>
   </Link>
 </div>
 
