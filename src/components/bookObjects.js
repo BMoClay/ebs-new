@@ -719,7 +719,7 @@ export const BOOKS = [
         bio: "John M. Armleder (*1948) is one of the most influential Swiss artists of his generation. His work is characterised by an exceptional openness, moving fluidly between painting, sculpture, installation, design, performance, and publishing. With the Ecart group, founded in 1969 together with Patrick Lucchini and Claude Rychner, he developed a practice that intertwined art and everyday life, understanding social exchange as an integral part of artistic production.",
         websiteUrl: "",
         website: "",
-        logo: logoA7,
+        logo: logoA10,
         images: [
           {
             id: 1,
@@ -748,7 +748,7 @@ export const BOOKS = [
         bio: "John M. Armleder (*1948) is one of the most influential Swiss artists of his generation. His work is characterised by an exceptional openness, moving fluidly between painting, sculpture, installation, design, performance, and publishing.",
         websiteUrl: "",
         website: "",
-        logo: logoA7,
+        logo: logoA10,
         images: [
           {
             id: 1,
