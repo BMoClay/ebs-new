@@ -682,7 +682,7 @@ export const BOOKS = [
         pages: 178,
         size: "22 x 22 cm",
         binding: "The special edition is presented in the same rigid greyboard portfolio, containing the thread-sewn softcover volume together with six loose inserts, including two posters.",
-        price: "Starting price: CHF 3,550.– The special edition is sold at tiered pricing.",
+        price: "Starting price: CHF 180.– The special edition is sold at tiered pricing.",
         edition: "Special Edition. Signed and numbered by the artist (1/30–30/30).",
         editionAmount: "30",
         attribution: "Signed and numbered by the artist (1/30–30/30).",
