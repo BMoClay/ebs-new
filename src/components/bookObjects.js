@@ -682,7 +682,7 @@ export const BOOKS = [
         pages: 178,
         size: "22 x 22 cm",
         binding: "The special edition is presented in the same rigid greyboard portfolio, containing the thread-sewn softcover volume together with six loose inserts, including two posters.",
-        price: "Starting price: CHF 3,550.– The special edition is sold at tiered pricing.",
+        price: "Starting price: CHF 180.– The special edition is sold at tiered pricing.",
         edition: "Special Edition. Signed and numbered by the artist (1/30–30/30).",
         editionAmount: "30",
         attribution: "Signed and numbered by the artist (1/30–30/30).",
@@ -719,7 +719,7 @@ export const BOOKS = [
         bio: "John M. Armleder (*1948) is one of the most influential Swiss artists of his generation. His work is characterised by an exceptional openness, moving fluidly between painting, sculpture, installation, design, performance, and publishing. With the Ecart group, founded in 1969 together with Patrick Lucchini and Claude Rychner, he developed a practice that intertwined art and everyday life, understanding social exchange as an integral part of artistic production.",
         websiteUrl: "",
         website: "",
-        logo: logoA10,
+        logo: logoA7,
         images: [
           {
             id: 1,
@@ -748,7 +748,7 @@ export const BOOKS = [
         bio: "John M. Armleder (*1948) is one of the most influential Swiss artists of his generation. His work is characterised by an exceptional openness, moving fluidly between painting, sculpture, installation, design, performance, and publishing.",
         websiteUrl: "",
         website: "",
-        logo: logoA10,
+        logo: logoA7,
         images: [
           {
             id: 1,
