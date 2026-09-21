@@ -103,15 +103,23 @@ export default function Root() {
   
 {/* 7 - 484 (normal + special edition) */}
 
-<div className="flex items-center border-b-[2px] gap-2">
-  <Link to={`books/5`} className="flex items-center gap-2">
-    <img src={books[4].logo} className="w-10 h-9" />
-    <h1 className="text-xs">{books[4].year}</h1>
-  </Link>
-  <span className="text-xs">/</span>
-  <Link to={`books/6`} className="flex items-center gap-2">
-    <h1 className="text-xs">{books[5].year}</h1>
-  </Link>
+<div className="border-b-[2px]">
+  <div className="flex items-center gap-2">
+    <Link to={`books/5`} className="flex items-center gap-2">
+      <img src={books[4].logo} className="w-10 h-9" />
+      <h1 className="text-xs">{books[4].year}</h1>
+    </Link>
+    <span className="text-xs">/</span>
+    <Link to={`books/6`} className="flex items-center gap-2">
+      <h1 className="text-xs">{books[5].year}</h1>
+    </Link>
+  </div>
+  {/* Le Livre du The (normal + special edition), also listed at slot 10 */}
+  <div className="flex items-center gap-2 pl-12">
+    <Link to={`books/12`} className="text-xs">{books[11].year}</Link>
+    <span className="text-xs">/</span>
+    <Link to={`books/13`} className="text-xs">{books[12].year}</Link>
+  </div>
 </div>
 
 
