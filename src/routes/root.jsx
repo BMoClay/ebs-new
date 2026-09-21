@@ -112,6 +112,14 @@ export default function Root() {
   <Link to={`books/6`} className="flex items-center gap-2">
     <h1 className="text-xs">{books[5].year}</h1>
   </Link>
+  {/* Le Livre du The (normal + special edition), also listed at slot 10 */}
+  <Link to={`books/12`} className="flex items-center gap-2">
+    <h1 className="text-xs">{books[11].year}</h1>
+  </Link>
+  <span className="text-xs">/</span>
+  <Link to={`books/13`} className="flex items-center gap-2">
+    <h1 className="text-xs">{books[12].year}</h1>
+  </Link>
 </div>
 
 
@@ -130,17 +138,11 @@ export default function Root() {
   <h1 className="text-xs"></h1>
 </div>
 
-{/* 10 - Le Livre du The (normal + special edition) */}
+{/* 10 */}
 
-<div className="flex items-center border-b-[2px] gap-2">
-  <Link to={`books/12`} className="flex items-center gap-2">
-    <img src={books[11].logo} className="w-10 h-9" />
-    <h1 className="text-xs">{books[11].year}</h1>
-  </Link>
-  <span className="text-xs">/</span>
-  <Link to={`books/13`} className="flex items-center gap-2">
-    <h1 className="text-xs">{books[12].year}</h1>
-  </Link>
+<div className="flex items-center gap-2 border-b-[2px]">
+  <img src={logo10} alt="" className="w-10 py-0.5" />
+  <h1 className="text-xs"></h1>
 </div>
 
 
