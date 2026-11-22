@@ -30,6 +30,13 @@ function News({ closeModal }) {
                         <div className="border-b"></div>
                         {/* new news */}
 
+
+                    <div className="py-12"></div>
+
+                    <div className="border-b"> Past News</div>
+
+                    <div className="py-6"></div>
+
                         <div className="text-left text-base">
                             <br />
                             <p>
@@ -51,12 +58,6 @@ function News({ closeModal }) {
                             </p>
                         </div>
                         <div className="border-b"></div>
-
-                    <div className="py-12"></div>
-
-                    <div className="border-b"> Past News</div>
-
-                    <div className="py-6"></div>
 
                         <div className="flex justify-center">
                             <div className="max-w-3xl">
