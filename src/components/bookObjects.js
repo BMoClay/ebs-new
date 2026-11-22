@@ -786,7 +786,6 @@ export const BOOKS = [
         artist: "Bruno Jakob",
         urlText: "bruno-jakob",
         year: "2026*",
-        pages: 100,
         size: "24 x 33 cm",
         binding: "Original invisible painting presented in a custom sleeve designed to accompany the book.",
         price: "CHF 2,600.–",
