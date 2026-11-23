@@ -88,14 +88,14 @@ const ImageSlider = ({ pictures }) => {
   //   console.log("slideStylesWidthBackground:",slideStylesWidthBackground)
   return (
     <div style={sliderStyles} className="">
-      <div>
+      {pictures.length > 1 && <div>
         <button type="button" aria-label="Previous image" onClick={goToPrevious} style={{...leftArrowStyles, background:"transparent", border:0, padding:0, minWidth:44, minHeight:44}}>
           ❰
         </button>
         <button type="button" aria-label="Next image" onClick={goToNext} style={{...rightArrowStyles, background:"transparent", border:0, padding:0, minWidth:44, minHeight:44}}>
           ❱
         </button>
-      </div>
+      </div>}
       <div>
         {isVideo(pictures[visibleIndex].imgFile) ? (
           <video
