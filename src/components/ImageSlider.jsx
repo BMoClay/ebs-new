@@ -89,12 +89,12 @@ const ImageSlider = ({ pictures }) => {
   return (
     <div style={sliderStyles} className="">
       <div>
-        <div onClick={goToPrevious} style={leftArrowStyles}>
+        <button type="button" aria-label="Previous image" onClick={goToPrevious} style={{...leftArrowStyles, background:"transparent", border:0, padding:0, minWidth:44, minHeight:44}}>
           ❰
-        </div>
-        <div onClick={goToNext} style={rightArrowStyles}>
+        </button>
+        <button type="button" aria-label="Next image" onClick={goToNext} style={{...rightArrowStyles, background:"transparent", border:0, padding:0, minWidth:44, minHeight:44}}>
           ❱
-        </div>
+        </button>
       </div>
       <div>
         {isVideo(pictures[visibleIndex].imgFile) ? (
