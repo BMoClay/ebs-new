@@ -54,18 +54,20 @@ const isVideo = (src) => typeof src === "string" && /\.(mp4|mov|webm|ogg)(\?|$)/
 
 // const ImageSlider = ({ pictures, videos }) => {
 const ImageSlider = ({ pictures }) => {
-  if (!pictures || pictures.length === 0) return null;
   const [currentIndex, setCurrentIndex] = useState(0);
+  if (!pictures || pictures.length === 0) return null;
+
+  const visibleIndex = currentIndex % pictures.length;
 
   const goToPrevious = () => {
-    const isFirstSlide = currentIndex === 0;
-    const newIndex = isFirstSlide ? pictures.length - 1 : currentIndex - 1;
+    const isFirstSlide = visibleIndex === 0;
+    const newIndex = isFirstSlide ? pictures.length - 1 : visibleIndex - 1;
     setCurrentIndex(newIndex);
   };
 
   const goToNext = () => {
-    const isLastSlide = currentIndex === pictures.length - 1;
-    const newIndex = isLastSlide ? 0 : currentIndex + 1;
+    const isLastSlide = visibleIndex === pictures.length - 1;
+    const newIndex = isLastSlide ? 0 : visibleIndex + 1;
     setCurrentIndex(newIndex);
   };
 
@@ -75,7 +77,7 @@ const ImageSlider = ({ pictures }) => {
 
   //   const slideStylesWidthBackground = {
   //     ...slideStyles,
-  //     backgroundImage: `${pictures[currentIndex].imgFile}`,
+  //     backgroundImage: `${pictures[visibleIndex].imgFile}`,
   //   };
 
   //   const slideBackground = {
@@ -86,18 +88,18 @@ const ImageSlider = ({ pictures }) => {
   //   console.log("slideStylesWidthBackground:",slideStylesWidthBackground)
   return (
     <div style={sliderStyles} className="">
-      <div>
-        <div onClick={goToPrevious} style={leftArrowStyles}>
+      {pictures.length > 1 && <div>
+        <button type="button" aria-label="Previous image" onClick={goToPrevious} style={{...leftArrowStyles, background:"transparent", border:0, padding:0, minWidth:44, minHeight:44}}>
           ❰
-        </div>
-        <div onClick={goToNext} style={rightArrowStyles}>
+        </button>
+        <button type="button" aria-label="Next image" onClick={goToNext} style={{...rightArrowStyles, background:"transparent", border:0, padding:0, minWidth:44, minHeight:44}}>
           ❱
-        </div>
-      </div>
+        </button>
+      </div>}
       <div>
-        {isVideo(pictures[currentIndex].imgFile) ? (
+        {isVideo(pictures[visibleIndex].imgFile) ? (
           <video
-            src={pictures[currentIndex].imgFile}
+            src={pictures[visibleIndex].imgFile}
             autoPlay
             muted
             loop
@@ -106,7 +108,7 @@ const ImageSlider = ({ pictures }) => {
             className="w-full object-cover"
           />
         ) : (
-          <img src={pictures[currentIndex].imgFile} alt="" />
+          <img src={pictures[visibleIndex].imgFile} alt="" />
         )}
       </div>
       {/* <div style={slideStylesWidthBackground}></div> */}

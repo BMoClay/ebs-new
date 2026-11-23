@@ -38,7 +38,7 @@ export default function Book() {
     <>
       <div className="">
         <div className="">
-          <h2 className="flex absolute py-1 inset-x-0 top-0 justify-center">
+          <h2 className="py-1 text-center sm:flex sm:absolute sm:inset-x-0 sm:top-0 sm:justify-center">
             {book.bookTitle}  {book.headerArtist}
           </h2>
           <Navbar />
@@ -84,59 +84,59 @@ export default function Book() {
             </div>
             <div className="sm:col-span-4 text-xs px-4 ">
               <div className="grid grid-cols-6 sm:col-span-2 items-baseline py-1">
-                <h3 className="sm:col-span-2 ">Logo{" "}</h3>
+                <h3 className="col-span-2 sm:col-span-2 ">Logo{" "}</h3>
                 <img src={book.logo} alt={book.artist} className="w-10" />
               </div>
               <hr />
               <div className="grid grid-cols-6 items-baseline py-1">
-                <h3 className="sm:col-span-2 ">Title</h3>
-                <h3 className="sm:col-span-3">{book.bookTitle}</h3>
+                <h3 className="col-span-2 sm:col-span-2 ">Title</h3>
+                <h3 className="col-span-4 sm:col-span-3">{book.bookTitle}</h3>
               </div>
               <hr />
               <div className="grid grid-cols-6 items-baseline py-1">
-                <h3 className="sm:col-span-2 ">Artist </h3>
-                <h3 className="sm:col-span-3">{book.artist}</h3>
+                <h3 className="col-span-2 sm:col-span-2 ">Artist </h3>
+                <h3 className="col-span-4 sm:col-span-3">{book.artist}</h3>
               </div>
               <hr />
               <div className="grid grid-cols-6 items-baseline py-1">
-                <div className="sm:col-span-2 ">
+                <div className="col-span-2 sm:col-span-2 ">
                   <h3 >Format</h3>
                 </div>
-                <div className="sm:col-span-3 ">
+                <div className="col-span-4 sm:col-span-3 ">
                   <h3 >{book.size}</h3>
-                  <h3 >{book.pages} pages</h3>
+                  {book.pages ? <h3 >{book.pages} pages</h3> : null}
                 </div>
               </div>
               <hr />
               <div className="grid grid-cols-6 items-baseline py-1">
-                <h3 className="sm:col-span-2 ">Binding</h3>
-                <h3 className="sm:col-span-3">{book.binding}</h3>
+                <h3 className="col-span-2 sm:col-span-2 ">Binding</h3>
+                <h3 className="col-span-4 sm:col-span-3">{book.binding}</h3>
               </div>
               <hr />
               <div className="grid grid-cols-6 items-baseline py-1">
-                <h3 className="sm:col-span-2 ">Edition</h3>
-                <h3 className="sm:col-span-3">{book.edition} {book.editionAmount} </h3>
+                <h3 className="col-span-2 sm:col-span-2 ">Edition</h3>
+                <h3 className="col-span-4 sm:col-span-3">{book.edition} {book.editionAmount} </h3>
               </div>
               {/* <hr />
                  <div className="grid grid-cols-6 items-baseline py-1">
-                <h3 className="sm:col-span-2 ">Artist Proofs</h3>
-                <h3 className="sm:col-span-3">{book.o1edition} {book.o1editionAmount} </h3>
+                <h3 className="col-span-2 sm:col-span-2 ">Artist Proofs</h3>
+                <h3 className="col-span-4 sm:col-span-3">{book.o1edition} {book.o1editionAmount} </h3>
               </div>
               <hr /> */}
 
                {/* <div className="grid grid-cols-6 items-baseline py-1">
-                <h3 className="sm:col-span-2 ">Signed by Artist</h3>
-                <h3 className="sm:col-span-3">{book.o2edition} {book.o2editionAmount} </h3>
+                <h3 className="col-span-2 sm:col-span-2 ">Signed by Artist</h3>
+                <h3 className="col-span-4 sm:col-span-3">{book.o2edition} {book.o2editionAmount} </h3>
               </div> */}
               <hr />
               <div className="grid grid-cols-6 items-baseline py-1">
-                <h3 className="sm:col-span-2 ">Price</h3>
-                <h3 className="sm:col-span-3">{book.price}</h3>
+                <h3 className="col-span-2 sm:col-span-2 ">Price</h3>
+                <h3 className="col-span-4 sm:col-span-3">{book.price}</h3>
               </div>
               <hr />
               <div className="grid grid-cols-6 items-baseline py-1 gap-1">
-                <h3 className="sm:col-span-2 ">Website</h3>
-                <h3 className="sm:col-span-3"><a href={book.websiteUrl}><b>{book.website}</b></a></h3>
+                <h3 className="col-span-2 sm:col-span-2 ">Website</h3>
+                <h3 className="col-span-4 sm:col-span-3"><a href={book.websiteUrl}><b>{book.website}</b></a></h3>
               </div>
             </div>
           </div>
