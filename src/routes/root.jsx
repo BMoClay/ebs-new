@@ -123,11 +123,17 @@ export default function Root() {
   </Link>
 </div>
 
-{/* 9 */}
-       
+{/* 9 - air light water cool (normal + special edition); keeps the slot's original Fiery_Color_016 logo (logo8) */}
+
 <div className="flex items-center gap-2 border-b-[2px]">
-  <img src={logo8} alt="" className="w-10 py-0.5" />
-  <h1 className="text-xs"></h1>
+  <Link to={`books/14`} className="flex items-center gap-2">
+    <img src={logo8} alt="" className="w-10 py-0.5" />
+    <h1 className="text-xs">{books[13].year}</h1>
+  </Link>
+  <span className="text-xs">/</span>
+  <Link to={`books/15`} className="flex items-center gap-2">
+    <h1 className="text-xs">{books[14].year}</h1>
+  </Link>
 </div>
 
 {/* 10 - Le Livre du The (normal + special edition) */}

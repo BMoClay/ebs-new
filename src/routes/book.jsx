@@ -104,7 +104,7 @@ export default function Book() {
                 </div>
                 <div className="sm:col-span-3 ">
                   <h3 >{book.size}</h3>
-                  <h3 >{book.pages} pages</h3>
+                  {book.pages && <h3 >{book.pages} pages</h3>}
                 </div>
               </div>
               <hr />
