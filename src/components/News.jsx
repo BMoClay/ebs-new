@@ -12,6 +12,8 @@ import VolImg from "/assets/news/volumes-2025.jpg"
 import halles from "/assets/news/echo1b.jpg"
 import halles2 from "/assets/news/echo3c.jpeg"    
 import invito1 from "/assets/news/INVITO1.jpg"
+import VolImg2026 from "/assets/news/volumes-2026.png"
+import tobleronesLaunch from "/assets/news/toblerones-book-launch.png"
 // import PdfViewer from "../components/Pdf-view"
 // import news from "./components/news.css"
 
@@ -87,6 +89,57 @@ function News({ closeModal }) {
                     <div className="border-b"> Past News</div>
 
                     <div className="py-6"></div>
+
+                        <div className="flex justify-center">
+                            <div className="max-w-3xl">
+                                <img src={VolImg2026} />
+                            </div>
+                        </div>
+                        <div className="text-left text-base">
+                            <br />
+                            <p>
+                                <b>ebs is participating in volumes 2026!</b>
+                                <br />
+                                Opening Hours:
+                                <br />
+                                Saturday, 21st of November: 12 - 20h
+                                <br />
+                                Sunday, 22nd of November: 11 - 18h
+                                <br />
+                                Location:
+                                <br />
+                                Gessnerallee Zürich, Gessnerallee 8, 8001 Zürich
+                                <br />
+                                Admission is free.
+                            </p>
+                        </div>
+                        <div className="border-b"></div>
+
+                        <div className="flex justify-center">
+                            <div className="max-w-3xl">
+                                <img src={tobleronesLaunch} />
+                            </div>
+                        </div>
+                        <div className="text-left text-base">
+                            <br />
+                            <p>
+                                <b>the Toblerones</b>
+                                <br />
+                                Olivier Mosset
+                                <br />
+                                <br />
+                                Book Launch
+                                <br />
+                                Saturday, October 17, 4-8pm
+                                <br />
+                                Galerie Oskar Weiss
+                                <br />
+                                Sonneggstrasse 82, 8006 Zürich
+                                <br />
+                                Published by ebs editionsbierisusanne
+                            </p>
+                        </div>
+                        <div className="border-b"></div>
 
                         <div className="flex justify-center">
                             <div className="max-w-3xl">
